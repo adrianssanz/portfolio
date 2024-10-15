@@ -11,6 +11,20 @@ body {
     color: #333;
     background-color: #f5f5f5;
     background: linear-gradient(135deg, #2980b9, #8e44ad);
+    background-size: 300% 300%;
+    animation: gradientRotation 10s ease infinite;
+}
+
+@keyframes gradientRotation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 h1, h2, h3 {
