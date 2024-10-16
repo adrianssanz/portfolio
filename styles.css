@@ -58,13 +58,6 @@ p, li {
     border: 0;
 }
 
-.techs {
-    color: black;
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 5px;
-}
-
 .container {
     width: 85%;
     max-width: 1200px;
@@ -146,7 +139,7 @@ section h2 {
 section h3 {
     font-size: 1.8rem;
     margin: 15px 0;
-    color: #16a085;
+    color: #2980b9;
 }
 
 ul {
@@ -157,7 +150,7 @@ ul {
 .job, .education-item {
     margin-bottom: 30px;
     padding-left: 15px;
-    border-left: 4px solid #16a085;
+    border-left: 4px solid #2980b9;
     display: flex;
     align-items: center;
 }
@@ -256,4 +249,80 @@ footer p {
         margin-right: 0;
         margin-bottom: 15px;
     }
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 12px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.java {
+    background-color: #f89820;
+}
+
+.spring {
+    background-color: #6db33f;
+}
+
+.mysql {
+    background-color: #005c84;
+}
+
+.jpa {
+    background-color: #6db33f;
+}
+
+.spring-data {
+    background-color: #6db33f;
+}
+
+.javascript {
+    background-color: #f7df1e;
+}
+
+.angular {
+    background-color: #dd0031;
+}
+
+.react {
+    background-color: #61dafb;
+}
+
+.html {
+    background-color: #e44d26;
+}
+
+.css {
+    background-color: #264de4;
+}
+
+.bootstrap {
+    background-color: #563d7c;
+}
+
+.angular-material {
+    background-color: #e03e31;
+}
+
+.github {
+    background-color: #333;
+}
+
+.typescript {
+    background-color: #007acc;
+}
+
+.badge i {
+    margin-right: 5px;
+}
+
+.flag-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
 }
