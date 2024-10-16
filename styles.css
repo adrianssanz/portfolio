@@ -205,7 +205,8 @@ footer p {
     }
 
     section {
-        width: calc(100% - 50px);
+        padding: 10px;
+        width: calc(100% - 15px);
     }
 
     header h1 {
