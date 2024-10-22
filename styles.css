@@ -117,7 +117,18 @@ header .contact-link {
     color: #ffffff;
 }
 
+
+
 header .contact-link:hover {
+    text-decoration: underline;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+.contact-link:hover {
     text-decoration: underline;
 }
 
