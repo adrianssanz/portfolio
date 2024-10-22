@@ -251,6 +251,31 @@ footer p {
     }
 }
 
+.mostrar{
+    display: block;
+}
+
+.ocultar{
+    display: none;
+}
+
+.badge2 {
+    display: inline-block;
+    padding: 0.5em 1em; /* Espaciado interno */
+    margin: 0.5em 0.5em 0; /* Margen para separación */
+    border-radius: 1em; /* Bordes redondeados */
+    background-color: #2980b9; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 0.9em; /* Tamaño de fuente */
+    transition: background-color 0.3s; /* Transición para el hover */
+  }
+  
+  .badge2:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+  }
+  
+
 .badge {
     display: inline-flex;
     align-items: center;
