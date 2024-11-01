@@ -264,7 +264,6 @@ footer p {
 
 .mostrar {
     opacity: 1;
-    max-height: 500px;
     transition: opacity 0.5s ease, max-height 0.5s ease;
     overflow: hidden;
 }
