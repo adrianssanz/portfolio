@@ -264,16 +264,15 @@ footer p {
 
 .mostrar {
     opacity: 1;
-    transition: opacity 0.5s ease, max-height 0.5s ease;
-    overflow: hidden;
+    transition: opacity 0.5s ease;
 }
 
 .ocultar {
     opacity: 0;
-    max-height: 0;
-    transition: opacity 0.5s ease, max-height 0.5s ease;
-    overflow: hidden;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
 }
+
 
 
 .badge2 {
