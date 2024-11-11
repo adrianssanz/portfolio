@@ -300,10 +300,19 @@ footer p {
     padding: 5px 10px;
     font-size: 14px;
     color: #fff;
+    margin-top: 5px;
 }
 
 .java {
     background-color: #f89820;
+}
+
+.eclipse{
+    background-color: #2C2255;
+}
+
+.vscode{
+    background-color: #007ACC;
 }
 
 .spring {
@@ -314,6 +323,9 @@ footer p {
     background-color: #005c84;
 }
 
+.firebase{
+    background-color: #DD2C00;
+}
 .jpa {
     background-color: #6db33f;
 }
@@ -323,7 +335,8 @@ footer p {
 }
 
 .javascript {
-    background-color: #f7df1e;
+    color: black;
+    background-color: #f7e51e;
 }
 
 .angular {
