@@ -1,9 +1,12 @@
 # Portfolio Personal
 
 ![GitHub](https://img.shields.io/badge/GitHub-Portfolio%20Personal-181717?style=flat-square&logo=github)
-![HTML5](https://img.shields.io/badge/HTML5-100000?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-100000?style=flat-square&logo=css3&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-4078c0?style=flat-square&logo=githubpages)
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23323330?style=flat-square&logo=javascript)
+
 
 ## Descripción
 
@@ -13,12 +16,13 @@ Este es mi portfolio personal, diseñado para presentar mis habilidades y proyec
 
 - **Diseño Responsivo**: Se adapta a diferentes tamaños de pantalla.
 - **Fácil Navegación**: Interfaz intuitiva para una mejor experiencia del usuario.
-- **Tecnologías Modernas**: Utiliza HTML y CSS puros para un rendimiento óptimo.
+- **Tecnologías Modernas**: Utiliza HTML y CSS puros para un rendimiento óptimo, con alguna pincelada de JavaScript.
 
 ## Tecnologías Utilizadas
 
 - HTML
 - CSS
+- JavaScript
 - GitHub Pages
 
 ## Demo
