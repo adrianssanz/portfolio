@@ -336,6 +336,11 @@ footer {
 
 .react {
     background-color: #61dafb;
+    color: black;
+}
+
+.python {
+    background-color: #306998;
 }
 
 .html {
