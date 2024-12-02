@@ -27,7 +27,7 @@ Este es mi portfolio personal, diseñado para presentar mis habilidades y proyec
 
 ## Demo
 
-Puedes ver el sitio web en vivo [aquí](https://adrianssanz.github.io/adrianssanz/).
+Puedes ver el sitio web en vivo [aquí](https://adrianssanz.github.io/portfolio/).
 
 ## Contribuciones
 
