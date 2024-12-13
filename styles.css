@@ -266,6 +266,29 @@ footer {
     overflow: hidden;
 }
 
+#volverArriba {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 18px;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+}
+
+#volverArriba:hover {
+    background-color: #0056b3;
+}
+
+#volverArriba.show {
+    display: block;
+}
 
 .badge2 {
     display: inline-block;
