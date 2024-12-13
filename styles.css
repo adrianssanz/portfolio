@@ -419,6 +419,10 @@ footer {
     background-color: #333;
 }
 
+.oracle {
+    background-color: #f80000;
+}
+
 .typescript {
     background-color: #007acc;
 }
