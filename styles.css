@@ -18,21 +18,26 @@ body {
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     color: white;
 }
 
-p, li {
+p,
+li {
     font-size: large;
     font-weight: 400;
     color: white;
@@ -48,7 +53,7 @@ p, li {
     background: #000;
     width: 40%;
 }
-  
+
 .video-container iframe {
     position: absolute;
     top: 0;
@@ -134,7 +139,7 @@ header .contact-link:hover {
 section {
     margin: 50px auto;
     padding: 30px;
-    background-color:#171f2b;
+    background-color: #171f2b;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: calc(100% - 200px);
@@ -156,7 +161,8 @@ ul {
     margin-left: 40px;
 }
 
-.job, .education-item {
+.job,
+.education-item {
     margin-bottom: 30px;
     padding-left: 15px;
     border-left: 4px solid #2980b9;
@@ -164,7 +170,8 @@ ul {
     align-items: center;
 }
 
-.job .company-logo, .education-item .school-logo {
+.job .company-logo,
+.education-item .school-logo {
     width: 100px;
     height: auto;
     margin-right: 20px;
@@ -237,7 +244,8 @@ footer {
     gap: 20px;
 }
 
-.job-details, .education-details {
+.job-details,
+.education-details {
     flex: 1;
 }
 
@@ -247,7 +255,8 @@ footer {
         align-items: flex-start;
     }
 
-    .company-logo, .school-logo {
+    .company-logo,
+    .school-logo {
         margin-right: 0;
         margin-bottom: 15px;
     }
@@ -292,20 +301,20 @@ footer {
 
 .badge2 {
     display: inline-block;
-    padding: 0.5em 1em; /* Espaciado interno */
-    margin: 0.5em 0.5em 0; /* Margen para separación */
-    border-radius: 1em; /* Bordes redondeados */
-    background-color: #2980b9; /* Color de fondo */
-    color: white; /* Color del texto */
-    text-decoration: none; /* Sin subrayado */
-    font-size: 0.9em; /* Tamaño de fuente */
-    transition: background-color 0.3s; /* Transición para el hover */
-  }
-  
-  .badge2:hover {
-    background-color: #0056b3; /* Color de fondo al pasar el ratón */
-  }
-  
+    padding: 0.5em 1em;
+    margin: 0.5em 0.5em 0;
+    border-radius: 1em;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.badge2:hover {
+    background-color: #0056b3;
+}
+
 
 .badge {
     display: inline-flex;
@@ -321,11 +330,11 @@ footer {
     background-color: #f89820;
 }
 
-.eclipse{
+.eclipse {
     background-color: #2C2255;
 }
 
-.vscode{
+.vscode {
     background-color: #007ACC;
 }
 
@@ -337,9 +346,10 @@ footer {
     background-color: #005c84;
 }
 
-.firebase{
+.firebase {
     background-color: #DD2C00;
 }
+
 .jpa {
     background-color: #6db33f;
 }
@@ -351,6 +361,21 @@ footer {
 .javascript {
     color: black;
     background-color: #f7e51e;
+}
+
+.nodejs {
+    background-color: #339933;
+    color: white;
+}
+
+.express {
+    background-color: #404D59;
+    color: white;
+}
+
+.sqlite {
+    background-color: #07405f;
+    color: white;
 }
 
 .angular {
@@ -382,11 +407,11 @@ footer {
     background-color: #e03e31;
 }
 
-.xampp{
+.xampp {
     background-color: #F33A3A;
 }
 
-.project-idx{
+.project-idx {
     background-color: #4285F4;
 }
 
