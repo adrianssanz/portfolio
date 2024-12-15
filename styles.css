@@ -103,6 +103,19 @@ header .location {
     height: auto;
     border-radius: 50%;
     margin-right: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.fotoPerfil:hover {
+    box-shadow: 0 0 15px rgba(41, 128, 185, 0.7);
+}
+
+.logo-image {
+    transition: filter 0.3s ease; /* Add a smooth transition */
+}
+
+.logo-image:hover {
+    filter: drop-shadow(0 0 20px rgba(41, 128, 185, 0.7));
 }
 
 .header-text {
@@ -184,6 +197,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.footer-texto {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 0; 
+  }
+  
 
 .projects-grid {
     display: flex;
