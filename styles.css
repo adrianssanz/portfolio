@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -301,40 +305,48 @@ footer {
     bottom: 30px;
     right: 30px;
     font-size: 18px;
-    background-color: #2980b9;
+    background: linear-gradient(to right, #2980b9, #0056b3);
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Added transitions */
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 10px;
+    border-radius: 1em;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: none;
+    opacity: 0; /* Initially hidden */
+    visibility: hidden; /* Initially hidden */
     z-index: 1000;
 }
 
 #volverArriba:hover {
-    background-color: #0056b3;
+    background: linear-gradient(to right, #2980b9, #0056b3);
+    box-shadow: 0 0 7px 3px rgba(41, 128, 185, 0.7);
 }
 
 #volverArriba.show {
-    display: block;
+    opacity: 1; /* Shown with opacity 1 */
+    visibility: visible; /* Shown */
 }
 
-.badge2 {
+
+
+.verMas {
     display: inline-block;
     padding: 0.5em 1em;
     margin: 0.5em 0.5em 0;
     border-radius: 1em;
-    background-color: #2980b9;
+    background: linear-gradient(to right, #2980b9, #0056b3);
     color: white;
     text-decoration: none;
     font-size: 0.9em;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-.badge2:hover {
-    background-color: #0056b3;
+.verMas:hover {
+    background: linear-gradient(to right, #2980b9, #0056b3);
+    box-shadow: 0 0 7px 3px rgba(41, 128, 185, 0.7);
 }
+
 
 
 .badge {
