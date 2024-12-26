@@ -194,6 +194,14 @@ ul {
     margin-right: 20px;
 }
 
+.school-logo:hover {
+    filter: drop-shadow(0 0 20px rgba(41, 128, 185, 0.7));
+}
+
+.company-logo:hover{
+    filter: drop-shadow(0 0 20px rgba(41, 128, 185, 0.7));
+}
+
 footer {
     text-align: center;
     padding-bottom: 20px;
