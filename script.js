@@ -6,11 +6,11 @@ document.getElementById('ver-mas').addEventListener('click', function(e) {
   if (oculto.classList.contains('ocultar')) {
       oculto.classList.remove('ocultar');
       oculto.classList.add('mostrar');
-      this.textContent = "Ver menos";
+      this.innerHTML = '<i class="fas fa-arrow-up"></i>';
   } else {
       oculto.classList.remove('mostrar');
       oculto.classList.add('ocultar');
-      this.textContent = "Ver más";
+      this.innerHTML = '<i class="fas fa-arrow-down"></i>';
   }
 });
 
