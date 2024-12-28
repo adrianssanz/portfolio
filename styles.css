@@ -115,7 +115,7 @@ header .location {
 }
 
 .logo-image {
-    transition: filter 0.3s ease; /* Add a smooth transition */
+    transition: filter 0.3s ease;
 }
 
 .logo-image:hover {
@@ -314,15 +314,15 @@ footer {
     right: 30px;
     font-size: 18px;
     background: linear-gradient(to right, #2980b9, #0056b3);
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Added transitions */
+    transition: background-color 0.3s, box-shadow 0.3s;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 1em;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    opacity: 0; /* Initially hidden */
-    visibility: hidden; /* Initially hidden */
+    opacity: 0;
+    visibility: hidden;
     z-index: 1000;
 }
 
@@ -342,13 +342,13 @@ footer {
 
 .verMas {
     display: inline-block; 
-    padding: 0.8em 1.2em; /* Increased padding */
+    padding: 0.8em 1.2em;
     margin: 0.5em 0.5em 0;
     border-radius: 1em;
     background: linear-gradient(to right, #2980b9, #0056b3);
     color: white;
     text-decoration: none;
-    font-size: 1.1em; /* Increased font size */
+    font-size: 1.1em;
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
