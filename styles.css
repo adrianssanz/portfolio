@@ -314,7 +314,7 @@ footer {
     right: 30px;
     font-size: 18px;
     background: linear-gradient(to right, #2980b9, #0056b3);
-    transition: background-color 0.3s, box-shadow 0.3s;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, background-color 0.3s, box-shadow 0.3s;
     color: white;
     padding: 10px 20px;
     border: none;
