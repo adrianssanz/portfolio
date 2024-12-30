@@ -138,6 +138,22 @@ header .contact-link {
     color: #ffffff;
 }
 
+.github-calendar {
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.github-calendar img {
+    max-width: 95%;
+    height: auto;
+    padding: 20px;
+    background-color: #171f2b;
+    border: 2px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
 
 
 header .contact-link:hover {
