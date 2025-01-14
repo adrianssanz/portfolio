@@ -530,6 +530,12 @@ footer {
     background-color: #007acc;
 }
 
+.postman{
+    background-color: #FF6C37;  /* Color típico de Postman */
+        color: white;
+        border-color: #e55b1e;
+}
+
 .badge i {
     margin-right: 5px;
 }
