@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   standalone: true
 })
 export class HeaderComponent {
-  title = 'Adrián Sanz'
+  email = 'sanzadrian@hotmail.es'
 }
