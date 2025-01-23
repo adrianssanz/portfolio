@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from '../../components/header/header.component';
+import { SobreMiComponent } from '../../components/sobre-mi/sobre-mi.component';
+import { TecnologiasComponent } from '../../components/tecnologias/tecnologias.component';
+import { ExperienciaComponent } from '../../components/experiencia/experiencia.component';
 
 @Component({
   selector: 'app-estructura',
-  imports: [HeaderComponent],
+  imports: [HeaderComponent, SobreMiComponent, TecnologiasComponent, ExperienciaComponent],
   templateUrl: './estructura.component.html',
-  styleUrl: './estructura.component.css'
+  styleUrl: './estructura.component.css',
 })
-export class EstructuraComponent {
-
-}
+export class EstructuraComponent {}
