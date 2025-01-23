@@ -1,0 +1,65 @@
+{
+    "tecnologias": [
+      {
+        "src": "assets/tecnologias/java.png",
+        "alt": "Java",
+        "nombre": "Java"
+      },
+      {
+        "src": "assets/tecnologias/angular.png",
+        "alt": "Angular",
+        "nombre": "Angular"
+      },
+      {
+        "src": "assets/tecnologias/javascript.png",
+        "alt": "JavaScript",
+        "nombre": "JavaScript"
+      },
+      {
+        "src": "assets/tecnologias/typescript.png",
+        "alt": "Typescript",
+        "nombre": "Typescript"
+      },
+      {
+        "src": "assets/tecnologias/spring.png",
+        "alt": "Spring",
+        "nombre": "Spring"
+      },
+      {
+        "src": "assets/tecnologias/html.png",
+        "alt": "HTML",
+        "nombre": "HTML"
+      },
+      {
+        "src": "assets/tecnologias/css.png",
+        "alt": "CSS",
+        "nombre": "CSS"
+      },
+      {
+        "src": "assets/tecnologias/bootstrap.png",
+        "alt": "Bootstrap",
+        "nombre": "Bootstrap"
+      }
+      ,
+      {
+        "src": "assets/tecnologias/mysql.png",
+        "alt": "MySql",
+        "nombre": "MySql"
+      },
+      {
+        "src": "assets/tecnologias/oracle.png",
+        "alt": "Oracle",
+        "nombre": "Oracle"
+      },
+      {
+        "src": "assets/tecnologias/react.png",
+        "alt": "React",
+        "nombre": "React"
+      },
+      {
+        "src": "assets/tecnologias/firebase.png",
+        "alt": "Firebase",
+        "nombre": "Firebase"
+      }
+    ]
+  }

@@ -1,0 +1,15 @@
+<section>
+    <div class="row m-5 text-light">
+      <div class="offset-lg-2 col-lg-8">
+        <h2 class="display-3">Tecnologías:</h2>
+      </div>
+    </div>
+    <div class="row w-75 m-auto text-light">
+      <div *ngFor="let tecnologia of tecnologias" class="col-6 col-md-4 col-lg-2 text-center mb-5 tecnologia">
+        <img [src]="tecnologia.src" [alt]="tecnologia.alt" class="img-fluid " style="max-height: 100px;">
+        <p>{{ tecnologia.nombre }}</p>
+      </div>
+    </div>
+    <hr class="w-75 mt-5 m-auto border-3 border-white">
+  </section>
+  
