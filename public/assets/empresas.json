@@ -1,0 +1,18 @@
+{
+  "empresas": [{
+      "src": "assets/empresas/eviden.png",
+      "alt": "Eviden",
+      "empresa": "Eviden",
+      "puesto": "Desarrollador Fullstack",
+      "duracion": "abril de 2024 - junio de 2024",
+      "descripcion": "• Participé en un bootcamp de tecnologías Java y Spring Framework en backend, y Angular.js en frontend, recibiendo formación práctica en desarrollo full-stack.\n\n• Desarrollo y mantenimiento de una aplicación web de gestión de reservas para fisioterapia en oficinas de la empresa, optimizando la experiencia de usuario y usabilidad del sistema de reservas.\n\n•Implementé funcionalidades en Java, Spring MVC y Angular para mejorar el flujo de reservas y la accesibilidad, lo que incrementó la adopción interna de la aplicación.\n\n• Además, desarrollé un sistema para la administración por oficinas, optimizando la gestión descentralizada y mejorando la eficiencia operativa."
+    }, {
+      "src": "assets/empresas/ayce.png",
+      "alt": "Ayce Laborytax",
+      "empresa": "Ayce Laborytax",
+      "puesto": "Tecnico de Soporte",
+      "duracion": "abril de 2022 - junio de 2022",
+      "descripcion": "• Brindé soporte técnico a usuarios, gestionando y manteniendo equipos informáticos para asegurar el funcionamiento ininterrumpido de sistemas y redes en entornos de oficina.\n\n• Resolución de incidencias técnicas y mantenimiento de equipos, lo cual mejoró la eficiencia operativa del equipo de soporte."
+    }
+  ]
+}
