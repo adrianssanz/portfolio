@@ -8,11 +8,16 @@ import { Observable } from 'rxjs';
 export class DataServiceService {
   private tecnologiasUrl = './assets/tecnologias.json';
   private empresasUrl = './assets/empresas.json';
+  private educacionUrl = './assets/educacion.json';
 
   constructor(private http: HttpClient) {}
 
   getTecnologias(): Observable<any> {
     return this.http.get(this.tecnologiasUrl);
+  }
+
+  getEducacion():Observable<any> {
+    return this.http.get(this.educacionUrl);
   }
 
   getEmpresas(): Observable<any>{

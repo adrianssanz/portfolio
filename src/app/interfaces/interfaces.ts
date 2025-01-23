@@ -4,6 +4,16 @@ export interface Tecnologia{
     nombre: string;
 }
 
+export interface Educacion{
+    src: string;
+    alt: string;
+    web: string;
+    institucion: string;
+    titulo: string;
+    duracion: string;
+    descripcion: string;
+}
+
 export interface Empresa{
     src: string;
     alt: string;
