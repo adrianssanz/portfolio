@@ -1,0 +1,12 @@
+.linea{
+    border-left: 1px solid white;
+}
+
+.institucion{
+    transition: all 0.5s ease;
+}
+
+.institucion:hover{
+    filter: drop-shadow(0 0 20px rgba(41, 128, 185, 0.7));
+    transform: translateY(-5px) scale(1.02);
+}

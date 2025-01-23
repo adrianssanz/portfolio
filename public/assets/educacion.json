@@ -1,0 +1,22 @@
+{
+    "educacion":[
+        {
+            "src": "assets/empresas/azarquiel.png",
+            "alt": "IES Azarquiel",
+            "web": "https://www.ies-azarquiel.es/",
+            "institucion": "IES Azarquiel",
+            "titulo": "CFGS Desarrollo de Aplicaciones Web",
+            "duracion": "septiembre de 2022 - junio de 2024",
+            "descripcion": "• Backend: APIs en Java usando Spring y JPA.\n\n• Frontend: Angular, React, JavaScript, TypeScript.\n\n• Diseño: HTML5, CSS3, Bootstrap, Angular Material.\n\n• Bases de datos: MySQL, Oracle, Firebase."
+          },
+          {
+            "src": "assets/empresas/azarquiel.png",
+            "alt": "IES Azarquiel",
+            "web": "https://www.ies-azarquiel.es/",
+            "institucion": "IES Azarquiel",
+            "titulo": "CFGS Administración de Sistemas Informáticos en Red",
+            "duracion": "septiembre de 2020 - junio de 2022",
+            "descripcion": "\n\n• Sistemas operativos: Windows y distribuciones de Linux.\n\n• Bases de datos: MySQL y Oracle.\n\n• Diseño de interfaces: HTML5 y CSS3.Gestión de redes."
+          }
+        ]
+}
