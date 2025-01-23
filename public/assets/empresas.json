@@ -2,6 +2,7 @@
   "empresas": [{
       "src": "assets/empresas/eviden.png",
       "alt": "Eviden",
+      "web": "https://eviden.com/es-es/",
       "empresa": "Eviden",
       "puesto": "Desarrollador Fullstack",
       "duracion": "abril de 2024 - junio de 2024",
@@ -9,6 +10,7 @@
     }, {
       "src": "assets/empresas/ayce.png",
       "alt": "Ayce Laborytax",
+      "web":"https://www.aycelaborytax.com/",
       "empresa": "Ayce Laborytax",
       "puesto": "Tecnico de Soporte",
       "duracion": "abril de 2022 - junio de 2022",

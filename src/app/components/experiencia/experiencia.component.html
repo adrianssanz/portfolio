@@ -7,7 +7,9 @@
   <div *ngFor="let empresa of empresas" class="w-75 m-auto text-light">
     <div class="row linea mb-5">
       <div class="col-lg-4 d-flex justify-content-center align-items-center">
-        <img [src]="empresa.src" [alt]="empresa.alt" class="img-fluid empresa">
+        <a [href]="empresa.web" target="_blank" class="img-fluid w-50 empresa">
+          <img [src]="empresa.src" [alt]="empresa.alt" class="img-fluid empresa">
+      </a>
       </div>
       <div class="col-lg-8 px-5">
         <h3 class="h1">{{empresa.empresa}}</h3>

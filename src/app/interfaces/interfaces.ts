@@ -17,6 +17,7 @@ export interface Educacion{
 export interface Empresa{
     src: string;
     alt: string;
+    web: string;
     empresa: string;
     puesto: string;
     duracion: string;
