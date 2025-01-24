@@ -71,6 +71,12 @@
       "alt": "Firebase",
       "nombre": "Firebase",
       "descripcion": "Plataforma de desarrollo de aplicaciones web y móviles de Google. Firebase ofrece una variedad de servicios, incluyendo bases de datos en tiempo real, autenticación, almacenamiento y hosting, que facilitan el desarrollo y la gestión de aplicaciones."
+    },
+    {
+      "src": "assets/tecnologias/git.png",
+      "alt": "Git",
+      "nombre": "Git",
+      "descripcion": "Sistema de control de versiones distribuido. Git es ampliamente utilizado en el desarrollo de software para gestionar el código fuente y facilitar la colaboración entre desarrolladores. Proporciona un historial completo de cambios y permite la creación de ramas para el desarrollo paralelo."
     }
   ]
 }
