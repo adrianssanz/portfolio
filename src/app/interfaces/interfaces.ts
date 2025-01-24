@@ -2,6 +2,7 @@ export interface Tecnologia{
     src: string;
     alt: string;
     nombre: string;
+    descripcion: string;
 }
 
 export interface Educacion{

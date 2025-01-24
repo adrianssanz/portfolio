@@ -5,7 +5,7 @@
       </div>
     </div>
     <div class="row w-75 m-auto text-light">
-      <div *ngFor="let tecnologia of tecnologias" class="col-6 col-md-4 col-lg-2 text-center mb-5 tecnologia">
+      <div (click)="abrirModal(tecnologia.src, tecnologia.nombre, tecnologia.descripcion)" *ngFor="let tecnologia of tecnologias" class="col-6 col-md-4 col-lg-2 text-center mb-5 tecnologia">
         <img [src]="tecnologia.src" [alt]="tecnologia.alt" class="img-fluid " style="max-height: 100px;">
         <p>{{ tecnologia.nombre }}</p>
       </div>
