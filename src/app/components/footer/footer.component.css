@@ -1,0 +1,9 @@
+.logo{
+    transition: all 0.5s ease;
+}
+
+.logo:hover{
+    cursor: pointer;
+    filter: drop-shadow(0 0 20px rgba(41, 128, 185, 0.7));
+    transform: translateY(-5px) scale(1.02);
+}
