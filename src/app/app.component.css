@@ -1,0 +1,17 @@
+.cursor-glow {
+    position: fixed;
+    pointer-events: none;
+    box-shadow: 0 0 1000px 100px #0056b3;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out;
+    z-index: -1;
+  }
+
+  .cursor-glow2 {
+    position: fixed;
+    pointer-events: none;
+    box-shadow: 0 0 700px 100px #6029b9;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out;
+    z-index: -1;
+  }
