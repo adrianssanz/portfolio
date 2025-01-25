@@ -4,14 +4,14 @@
         <h2 class="display-3">Experiencia:</h2>
       </div>
     </div>
-    <div *ngFor="let educacion of educaciones" class="w-75 m-auto text-light">
-      <div class="row linea mb-5">
+    <div *ngFor="let educacion of educaciones" class="w-75 m-auto text-light ">
+      <div class="row mb-5">
         <div class="col-lg-4 d-flex justify-content-center align-items-center">
-        <a [href]="educacion.web" target="_blank" class="img-fluid w-50 institucion">
-            <img [src]="educacion.src" [alt]="educacion.alt" class="img-fluid institucion">
+        <a [href]="educacion.web" target="_blank" class="img-fluid w-50 ampliar-logo">
+            <img [src]="educacion.src" [alt]="educacion.alt" class="img-fluid ampliar-logo">
         </a>
         </div>
-        <div class="col-lg-8 px-5">
+        <div class="col-lg-8 px-5 linea ampliar">
           <h3 class="h1">{{educacion.institucion}}</h3>
           <h4 class="lead">{{educacion.titulo}}</h4>
           <h4 class="lead">{{educacion.duracion}}</h4>

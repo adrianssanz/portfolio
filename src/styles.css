@@ -3,3 +3,22 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 */
+
+.ampliar{
+    transition: all 0.5s ease;
+}   
+
+.ampliar:hover{
+    filter: drop-shadow(0 0 20px rgba(41, 128, 185, 0.7));
+    transform: translateY(-5px) scale(1.02);
+}
+
+.ampliar-logo{
+    cursor:pointer;
+    transition: all 0.5s ease;
+}
+
+.ampliar-logo:hover{
+    filter: drop-shadow(0 0 20px rgba(41, 128, 185, 0.7));
+    transform: translateY(-5px) scale(1.02);
+}
