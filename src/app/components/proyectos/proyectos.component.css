@@ -1,0 +1,15 @@
+.ver-mas{
+    font-size: 18px;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #2980b9, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.ver-mas:hover {
+    box-shadow: 0 0 7px 3px rgba(41, 128, 185, 0.7);
+    transform: translateY(-5px) scale(1.02);
+}

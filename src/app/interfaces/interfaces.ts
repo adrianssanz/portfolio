@@ -15,6 +15,14 @@ export interface Educacion{
     descripcion: string;
 }
 
+export interface Proyecto{
+    titulo: string;
+    duracion: string;
+    descripcion: string;
+    repositorio: string;
+    tecnologias: string[];
+}
+
 export interface Empresa{
     src: string;
     alt: string;
