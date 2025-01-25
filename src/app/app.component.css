@@ -15,3 +15,20 @@
     transition: transform 0.1s ease-out;
     z-index: -1;
   }
+
+  .sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 150px;
+    z-index: 1;
+}
+
+i {
+    transition: color 0.3s ease;
+}
+
+i:hover {
+    color: #2684e8;
+}
