@@ -8,10 +8,10 @@ export const routes: Routes = [
         path: '',
         component: EstructuraComponent
     },
-    {
+    /**{
         path:'proyectos',
         component: LayoutProyectosComponent
-    },
+    },**/
     {
         path:'**',
         component: Error404Component
