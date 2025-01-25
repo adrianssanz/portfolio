@@ -1,0 +1,24 @@
+.error-container {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 1em;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: white;
+}
+
+.volver-inicio{
+    font-size: 18px;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #2980b9, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.volver-inicio:hover {
+    box-shadow: 0 0 7px 3px rgba(41, 128, 185, 0.7);
+    transform: translateY(-5px) scale(1.02);
+}
