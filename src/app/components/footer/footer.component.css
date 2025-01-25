@@ -1,9 +1,7 @@
-.logo{
-    transition: all 0.5s ease;
+i {
+    transition: color 0.3s ease;
 }
 
-.logo:hover{
-    cursor: pointer;
-    filter: drop-shadow(0 0 20px rgba(41, 128, 185, 0.7));
-    transform: translateY(-5px) scale(1.02);
+i:hover {
+    color: #2684e8;
 }
