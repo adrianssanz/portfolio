@@ -1,0 +1,94 @@
+{
+  "tecnologias": [
+    {
+      "src": "assets/tecnologias/java.png",
+      "alt": "Java",
+      "nombre": "Java",
+      "descripcion": "Lenguaje de programación orientado a objetos. Es ampliamente utilizado para desarrollar aplicaciones empresariales, aplicaciones móviles y sistemas embebidos. Java es conocido por su portabilidad y robustez."
+    },
+    {
+      "src": "assets/tecnologias/angular.png",
+      "alt": "Angular",
+      "nombre": "Angular",
+      "descripcion": "Framework para aplicaciones web desarrollado por Google. Angular permite la creación de aplicaciones de una sola página (SPA) con una arquitectura basada en componentes. Es conocido por su capacidad para crear aplicaciones dinámicas y de alto rendimiento."
+    },
+    {
+      "src": "assets/tecnologias/javascript.png",
+      "alt": "JavaScript",
+      "nombre": "JavaScript",
+      "descripcion": "Lenguaje de programación interpretado, utilizado principalmente en el desarrollo web. JavaScript permite la creación de contenido interactivo en las páginas web y es una parte fundamental de la pila de tecnologías web junto con HTML y CSS."
+    },
+    {
+      "src": "assets/tecnologias/typescript.png",
+      "alt": "Typescript",
+      "nombre": "Typescript",
+      "descripcion": "Superset de JavaScript que añade tipos estáticos. TypeScript mejora la productividad del desarrollo y la calidad del código al proporcionar características como la verificación de tipos en tiempo de compilación y la autocompletación."
+    },
+    {
+      "src": "assets/tecnologias/spring.png",
+      "alt": "Spring",
+      "nombre": "Spring",
+      "descripcion": "Framework para el desarrollo de aplicaciones empresariales en Java. Spring proporciona una infraestructura integral para desarrollar aplicaciones robustas y escalables, incluyendo soporte para transacciones, seguridad y acceso a datos."
+    },
+    {
+      "src": "assets/tecnologias/html.png",
+      "alt": "HTML",
+      "nombre": "HTML",
+      "descripcion": "Lenguaje de marcado para la creación de páginas web. HTML define la estructura y el contenido de una página web mediante el uso de etiquetas y atributos. Es la base sobre la cual se construyen todas las páginas web."
+    },
+    {
+      "src": "assets/tecnologias/css.png",
+      "alt": "CSS",
+      "nombre": "CSS",
+      "descripcion": "Lenguaje de estilos utilizado para describir la presentación de documentos HTML. CSS permite la separación del contenido y la presentación, facilitando el diseño y la personalización de las páginas web mediante el uso de estilos y layouts."
+    },
+    {
+      "src": "assets/tecnologias/bootstrap.png",
+      "alt": "Bootstrap",
+      "nombre": "Bootstrap",
+      "descripcion": "Framework de CSS para el desarrollo de interfaces web responsivas. Bootstrap proporciona una colección de herramientas y componentes predefinidos que facilitan el diseño de sitios web modernos y adaptativos, reduciendo el tiempo de desarrollo."
+    },
+    {
+      "src": "assets/tecnologias/mysql.png",
+      "alt": "MySql",
+      "nombre": "MySql",
+      "descripcion": "Sistema de gestión de bases de datos relacional de código abierto. MySQL es conocido por su rendimiento, fiabilidad y facilidad de uso. Es ampliamente utilizado en aplicaciones web y es compatible con una gran variedad de sistemas operativos."
+    },
+    {
+      "src": "assets/tecnologias/oracle.png",
+      "alt": "Oracle",
+      "nombre": "Oracle",
+      "descripcion": "Sistema de gestión de bases de datos relacional desarrollado por Oracle Corporation. Oracle Database es conocido por su escalabilidad, seguridad y soporte para grandes volúmenes de datos, siendo una opción popular para aplicaciones empresariales críticas."
+    },
+    {
+      "src": "assets/tecnologias/react.png",
+      "alt": "React",
+      "nombre": "React",
+      "descripcion": "Biblioteca de JavaScript para construir interfaces de usuario. React permite la creación de componentes reutilizables y facilita el desarrollo de aplicaciones web dinámicas y de alto rendimiento mediante el uso de un modelo de programación declarativo."
+    },
+    {
+      "src": "assets/tecnologias/firebase.png",
+      "alt": "Firebase",
+      "nombre": "Firebase",
+      "descripcion": "Plataforma de desarrollo de aplicaciones web y móviles de Google. Firebase ofrece una variedad de servicios, incluyendo bases de datos en tiempo real, autenticación, almacenamiento y hosting, que facilitan el desarrollo y la gestión de aplicaciones."
+    },
+    {
+      "src": "assets/tecnologias/git.png",
+      "alt": "Git",
+      "nombre": "Git",
+      "descripcion": "Sistema de control de versiones distribuido. Git es ampliamente utilizado en el desarrollo de software para gestionar el código fuente y facilitar la colaboración entre desarrolladores. Proporciona un historial completo de cambios y permite la creación de ramas para el desarrollo paralelo."
+    },
+    {
+      "src": "assets/tecnologias/postman.png",
+      "alt": "Postman",
+      "nombre": "Postman",
+      "descripcion": "Herramienta para probar y documentar APIs. Postman permite a los desarrolladores enviar solicitudes HTTP a un servidor y recibir respuestas, facilitando la validación y el desarrollo de APIs. También proporciona características para la automatización de pruebas y la colaboración en equipo."
+    },
+    {
+      "src": "assets/tecnologias/vscode.png",
+      "alt": "Vscode",
+      "nombre": "Vscode",
+      "descripcion": "Editor de código fuente desarrollado por Microsoft. Visual Studio Code es conocido por su ligereza, velocidad y extensibilidad, lo que lo convierte en una opción popular entre los desarrolladores para la escritura de código en una variedad de lenguajes de programación."
+    }
+  ]
+}

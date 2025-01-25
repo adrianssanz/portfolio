@@ -1,0 +1,33 @@
+{
+  "proyectos": [
+    {
+        "titulo": "AlonsoPedia",
+        "duracion": "enero 2024 - febrero 2024",
+        "descripcion": "Esta aplicación web, desarrollada con React.js en el marco de un proyecto práctico para el módulo de Desarrollo Web en Entorno Cliente, fue realizada en colaboración con un compañero. Su propósito es ofrecer una experiencia interactiva y visualmente atractiva para los aficionados de la Fórmula 1, proporcionando un recorrido detallado por las estadísticas clave de la legendaria carrera de Fernando Alonso.",
+        "repositorio": "https://github.com/adrianssanz/Alonsopedia",
+        "tecnologias": [
+          "JavaScript",
+          "ReactJS",
+          "HTML",
+          "MySQL"
+        ]
+      },{
+      "titulo": "Parking App",
+      "duracion": "abril 2024 - junio 2024",
+      "descripcion": "Para mi proyecto final del Grado Superior en Desarrollo de Aplicaciones Web, creé una aplicación de gestión de tickets de parking que optimiza el control de plazas de estacionamiento. La aplicación hace uso de Java y Spring para el back, Angular y Bootstrap para el front, y para la base de datos utiliza MySQL",
+      "repositorio": "https://github.com/adrianssanz/TrabajoFinal_ParkingApp",
+      "tecnologias": [
+        "Java",
+        " Spring",
+        " JavaScript",
+        " AngularJS",
+        " TypeScript",
+        " Bootstrap",
+        " Firebase",
+        " MySQL",
+        " XAMPP"
+      ]
+    }
+    
+  ]
+}
