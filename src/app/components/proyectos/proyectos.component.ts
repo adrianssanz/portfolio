@@ -22,7 +22,6 @@ export class ProyectosComponent implements OnInit {
   getProyectos(): void {
     this.dataService.getProyectos().subscribe((respuesta) => {
       this.proyectos = respuesta.proyectos;
-      console.log(this.proyectos);
     });
   }
 }

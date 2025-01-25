@@ -22,7 +22,6 @@ export class EducacionComponent implements OnInit {
   getEducacion(): void {
     this.dataService.getEducacion().subscribe((respuesta) => {
       this.educaciones = respuesta.educacion;
-      console.log(this.educaciones);
     });
   }
 

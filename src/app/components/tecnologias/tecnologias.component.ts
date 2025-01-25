@@ -36,8 +36,6 @@ export class TecnologiasComponent implements OnInit {
   getTecnologias(): void {
     this.dataService.getTecnologias().subscribe((tecnologias) => {
       this.tecnologias = tecnologias.tecnologias;
-      console.log(tecnologias.tecnologias);
-      console.log(this.tecnologias);
     });
   }
 }

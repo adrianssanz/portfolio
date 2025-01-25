@@ -22,7 +22,6 @@ export class ExperienciaComponent implements OnInit {
   getEmpresas(): void {
     this.dataService.getEmpresas().subscribe((respuesta) => {
       this.empresas = respuesta.empresas;
-      console.log(this.empresas);
     });
   }
 }
