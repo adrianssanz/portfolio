@@ -1,5 +1,5 @@
 {
-  "name": "myapp",
+  "name": "portfolio",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -22,8 +22,8 @@
     "@angular/router": "^19.0.0",
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1",
-    "myapp": "file:",
     "popper.js": "^1.16.1",
+    "portfolio": "file:",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
