@@ -6,6 +6,7 @@ import { ExperienciaComponent } from '../../components/experiencia/experiencia.c
 import { EducacionComponent } from '../../components/educacion/educacion.component';
 import { VolverArribaComponent } from '../../components/volver-arriba/volver-arriba.component';
 import { FooterComponent } from '../../components/footer/footer.component';
+import { ProyectosComponent } from '../../components/proyectos/proyectos.component';
 
 @Component({
   selector: 'app-estructura',
@@ -16,7 +17,8 @@ import { FooterComponent } from '../../components/footer/footer.component';
     ExperienciaComponent,
     EducacionComponent,
     VolverArribaComponent,
-    FooterComponent
+    FooterComponent,
+    ProyectosComponent
   ],
   templateUrl: './estructura.component.html',
   styleUrl: './estructura.component.css',
