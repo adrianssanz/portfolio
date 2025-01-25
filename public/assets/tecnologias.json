@@ -77,6 +77,18 @@
       "alt": "Git",
       "nombre": "Git",
       "descripcion": "Sistema de control de versiones distribuido. Git es ampliamente utilizado en el desarrollo de software para gestionar el código fuente y facilitar la colaboración entre desarrolladores. Proporciona un historial completo de cambios y permite la creación de ramas para el desarrollo paralelo."
+    },
+    {
+      "src": "assets/tecnologias/postman.png",
+      "alt": "Postman",
+      "nombre": "Postman",
+      "descripcion": "Herramienta para probar y documentar APIs. Postman permite a los desarrolladores enviar solicitudes HTTP a un servidor y recibir respuestas, facilitando la validación y el desarrollo de APIs. También proporciona características para la automatización de pruebas y la colaboración en equipo."
+    },
+    {
+      "src": "assets/tecnologias/vscode.png",
+      "alt": "Vscode",
+      "nombre": "Vscode",
+      "descripcion": "Editor de código fuente desarrollado por Microsoft. Visual Studio Code es conocido por su ligereza, velocidad y extensibilidad, lo que lo convierte en una opción popular entre los desarrolladores para la escritura de código en una variedad de lenguajes de programación."
     }
   ]
 }
