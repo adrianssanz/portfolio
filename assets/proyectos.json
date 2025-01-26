@@ -1,21 +1,25 @@
 {
   "proyectos": [
     {
-        "titulo": "AlonsoPedia",
-        "duracion": "enero 2024 - febrero 2024",
-        "descripcion": "Esta aplicación web, desarrollada con React.js en el marco de un proyecto práctico para el módulo de Desarrollo Web en Entorno Cliente, fue realizada en colaboración con un compañero. Su propósito es ofrecer una experiencia interactiva y visualmente atractiva para los aficionados de la Fórmula 1, proporcionando un recorrido detallado por las estadísticas clave de la legendaria carrera de Fernando Alonso.",
-        "repositorio": "https://github.com/adrianssanz/Alonsopedia",
-        "tecnologias": [
-          "JavaScript",
-          "ReactJS",
-          "HTML",
-          "MySQL"
-        ]
-      },{
+      "titulo": "AlonsoPedia",
+      "duracion": "enero 2024 - febrero 2024",
+      "descripcion": "Aplicación web desarrollada con React.js para ofrecer una experiencia interactiva y visualmente atractiva a los aficionados de la Fórmula 1, proporcionando un recorrido detallado por las estadísticas clave de la carrera de Fernando Alonso.",
+      "repositorio": ["https://github.com/adrianssanz/Alonsopedia"],
+      "tecnologias": [
+        "JavaScript",
+        " ReactJS",
+        " HTML",
+        " MySQL"
+      ],
+      "demo": "",
+      "src": "./assets/proyectos/alonsopedia.jpg",
+      "alt": "AlonsoPedia"
+    },
+    {
       "titulo": "Parking App",
       "duracion": "abril 2024 - junio 2024",
-      "descripcion": "Para mi proyecto final del Grado Superior en Desarrollo de Aplicaciones Web, creé una aplicación de gestión de tickets de parking que optimiza el control de plazas de estacionamiento. La aplicación hace uso de Java y Spring para el back, Angular y Bootstrap para el front, y para la base de datos utiliza MySQL",
-      "repositorio": "https://github.com/adrianssanz/TrabajoFinal_ParkingApp",
+      "descripcion": "Aplicación de gestión de tickets de parking que optimiza el control de plazas de estacionamiento. Utiliza Java y Spring para el backend, Angular y Bootstrap para el frontend, y MySQL para la base de datos.",
+      "repositorio": ["https://github.com/adrianssanz/TrabajoFinal_ParkingApp"],
       "tecnologias": [
         "Java",
         " Spring",
@@ -26,8 +30,87 @@
         " Firebase",
         " MySQL",
         " XAMPP"
-      ]
+      ],
+      "demo": "",
+      "src": "./assets/proyectos/parkingapp.jpg",
+      "alt": "ParkingApp"
+    },
+    {
+      "titulo": "Aplicación de Notas - CRUD",
+      "duracion": "diciembre 2024 - enero 2025",
+      "descripcion": "Aplicación web para gestionar notas, con backend en Java Spring y frontend en AngularJS. Se centra en la creación de una API RESTful utilizando Spring Boot para la gestión de notas, implementando operaciones CRUD.",
+      "repositorio": [
+        "https://github.com/adrianssanz/repositorioBackend",
+        "https://github.com/adrianssanz/repositorioFrontend"
+      ],
+      "tecnologias": [
+        "Java",
+        " Spring",
+        " JPARepository",
+        " H2 Database",
+        " Postman",
+        " AngularJS",
+        " JavaScript",
+        " TypeScript",
+        " HTML",
+        " CSS",
+        " Bootstrap",
+        " Angular Material"
+      ],
+      "demo": "",
+      "src": "./assets/proyectos/misNotas.jpg",
+      "alt": "MisNotas"
+    },
+    {
+      "titulo": "Juego de la Serpiente",
+      "duracion": "octubre 2024",
+      "descripcion": "Juego clásico de la serpiente utilizando HTML, CSS y JavaScript, desplegado en GitHub Pages. La jugabilidad se centra en controlar una serpiente que crece al comer una manzana.",
+      "repositorio": ["https://github.com/adrianssanz/serpiente"],
+      "tecnologias": [
+        "GitHub Pages",
+        " HTML",
+        " CSS",
+        " JavaScript"
+      ],
+      "demo": "https://adrianssanz.github.io/serpiente/",
+      "src": "./assets/proyectos/serpiente.jpg",
+      "alt": "Serpiente"
+    },
+    {
+      "titulo": "Generador de Contraseñas",
+      "duracion": "noviembre 2024",
+      "descripcion": "Aplicación generadora de contraseñas utilizando Angular. Permite crear contraseñas seguras y aleatorias, personalizando la longitud y opciones como caracteres especiales, mayúsculas, minúsculas y números.",
+      "repositorio": ["https://github.com/adrianssanz/passwd-generator"],
+      "tecnologias": [
+        "GitHub Pages",
+        " HTML",
+        " CSS",
+        " Bootstrap",
+        " JavaScript",
+        " AngularJS",
+        " TypeScript"
+      ],
+      "demo": "https://adrianssanz.github.io/passwd-generator/",
+      "src": "./assets/proyectos/contraseñas.png",
+      "alt": "Contraseñas"
+    },
+    {
+      "titulo": "Portfolio Personal",
+      "duracion": "enero 2025",
+      "descripcion": "Portfolio personal utilizando AngularJS para presentar habilidades y proyectos como desarrollador web. Ofrece una experiencia interactiva y dinámica, con diseño limpio y responsivo, desplegado en GitHub Pages.",
+      "repositorio": ["https://github.com/adrianssanz/portfolio"],
+      "tecnologias": [
+        "GitHub Pages",
+        " HTML",
+        " CSS",
+        " Bootstrap",
+        " JavaScript",
+        " AngularJS",
+        " TypeScript"
+      ],
+      "demo": "https://adrianssanz.github.io/portfolio/",
+      "src": "./assets/proyectos/portfolio.png",
+      "alt": "Portfolio"
     }
-    
   ]
 }
