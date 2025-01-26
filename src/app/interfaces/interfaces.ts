@@ -10,6 +10,7 @@ export interface Educacion{
     alt: string;
     web: string;
     institucion: string;
+    ubicacion: string;
     titulo: string;
     duracion: string;
     descripcion: string;
@@ -19,8 +20,11 @@ export interface Proyecto{
     titulo: string;
     duracion: string;
     descripcion: string;
-    repositorio: string;
+    demo: string;
+    repositorio: string[];
     tecnologias: string[];
+    src: string;
+    alt: string;
 }
 
 export interface Empresa{
@@ -28,6 +32,7 @@ export interface Empresa{
     alt: string;
     web: string;
     empresa: string;
+    ubicacion: string;
     puesto: string;
     duracion: string;
     descripcion: string;
