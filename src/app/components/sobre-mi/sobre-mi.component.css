@@ -10,7 +10,7 @@
 .github-calendar img {
     max-width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s, box-shadow 0.3s;

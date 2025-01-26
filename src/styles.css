@@ -4,21 +4,51 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 */
 
-.ampliar{
-    transition: all 0.5s ease;
-}   
-
-.ampliar:hover{
-    filter: drop-shadow(0 0 20px rgba(41, 128, 185, 0.7));
-    transform: translateY(-5px) scale(1.02);
+.ampliar {
+  transition: all 0.5s ease;
 }
 
-.ampliar-logo{
-    cursor:pointer;
-    transition: all 0.5s ease;
+.ampliar:hover {
+  filter: drop-shadow(0 0 20px rgba(41, 128, 185, 0.7));
+  transform: translateY(-5px) scale(1.02);
 }
 
-.ampliar-logo:hover{
-    filter: drop-shadow(0 0 20px rgba(41, 128, 185, 0.7));
-    transform: translateY(-5px) scale(1.02);
+.ampliar-logo {
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.ampliar-logo:hover {
+  filter: drop-shadow(0 0 20px rgba(41, 128, 185, 0.7));
+  transform: translateY(-5px) scale(1.02);
+}
+
+.text-light-blue {
+  color: rgba(41, 128, 185, 0.7);
+}
+
+.volver-inicio {
+  font-size: 18px;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #2980b9, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.volver-inicio:hover {
+  box-shadow: 0 0 7px 3px rgba(41, 128, 185, 0.7);
+  transform: translateY(-5px) scale(1.02);
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+@media (min-width: 1024px) {
+    .linea {
+        border-bottom: 1px solid white;
+    }
 }
