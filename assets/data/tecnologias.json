@@ -7,6 +7,18 @@
       "descripcion": "Lenguaje de programación orientado a objetos. Es ampliamente utilizado para desarrollar aplicaciones empresariales, aplicaciones móviles y sistemas embebidos. Java es conocido por su portabilidad y robustez."
     },
     {
+      "src": "assets/tecnologias/spring.png",
+      "alt": "Spring",
+      "nombre": "Spring",
+      "descripcion": "Framework para el desarrollo de aplicaciones empresariales en Java. Spring proporciona una infraestructura integral para desarrollar aplicaciones robustas y escalables, incluyendo soporte para transacciones, seguridad y acceso a datos."
+    },
+    {
+      "src": "assets/tecnologias/typescript.png",
+      "alt": "Typescript",
+      "nombre": "Typescript",
+      "descripcion": "Superset de JavaScript que añade tipos estáticos. TypeScript mejora la productividad del desarrollo y la calidad del código al proporcionar características como la verificación de tipos en tiempo de compilación y la autocompletación."
+    },
+    {
       "src": "assets/tecnologias/angular.png",
       "alt": "Angular",
       "nombre": "Angular",
@@ -19,16 +31,10 @@
       "descripcion": "Lenguaje de programación interpretado, utilizado principalmente en el desarrollo web. JavaScript permite la creación de contenido interactivo en las páginas web y es una parte fundamental de la pila de tecnologías web junto con HTML y CSS."
     },
     {
-      "src": "assets/tecnologias/typescript.png",
-      "alt": "Typescript",
-      "nombre": "Typescript",
-      "descripcion": "Superset de JavaScript que añade tipos estáticos. TypeScript mejora la productividad del desarrollo y la calidad del código al proporcionar características como la verificación de tipos en tiempo de compilación y la autocompletación."
-    },
-    {
-      "src": "assets/tecnologias/spring.png",
-      "alt": "Spring",
-      "nombre": "Spring",
-      "descripcion": "Framework para el desarrollo de aplicaciones empresariales en Java. Spring proporciona una infraestructura integral para desarrollar aplicaciones robustas y escalables, incluyendo soporte para transacciones, seguridad y acceso a datos."
+      "src": "assets/tecnologias/react.png",
+      "alt": "React",
+      "nombre": "React",
+      "descripcion": "Biblioteca de JavaScript para construir interfaces de usuario. React permite la creación de componentes reutilizables y facilita el desarrollo de aplicaciones web dinámicas y de alto rendimiento mediante el uso de un modelo de programación declarativo."
     },
     {
       "src": "assets/tecnologias/html.png",
@@ -61,12 +67,6 @@
       "descripcion": "Sistema de gestión de bases de datos relacional desarrollado por Oracle Corporation. Oracle Database es conocido por su escalabilidad, seguridad y soporte para grandes volúmenes de datos, siendo una opción popular para aplicaciones empresariales críticas."
     },
     {
-      "src": "assets/tecnologias/react.png",
-      "alt": "React",
-      "nombre": "React",
-      "descripcion": "Biblioteca de JavaScript para construir interfaces de usuario. React permite la creación de componentes reutilizables y facilita el desarrollo de aplicaciones web dinámicas y de alto rendimiento mediante el uso de un modelo de programación declarativo."
-    },
-    {
       "src": "assets/tecnologias/firebase.png",
       "alt": "Firebase",
       "nombre": "Firebase",
@@ -89,6 +89,12 @@
       "alt": "Vscode",
       "nombre": "Vscode",
       "descripcion": "Editor de código fuente desarrollado por Microsoft. Visual Studio Code es conocido por su ligereza, velocidad y extensibilidad, lo que lo convierte en una opción popular entre los desarrolladores para la escritura de código en una variedad de lenguajes de programación."
+    },
+    {
+      "src": "assets/tecnologias/eclipse.png",
+      "alt": "Eclipse",
+      "nombre": "Eclipse IDE",
+      "descripcion": "Entorno de desarrollo integrado (IDE) utilizado principalmente para el desarrollo de aplicaciones en Java. Eclipse es conocido por su extensibilidad a través de plugins, lo que permite a los desarrolladores personalizar y ampliar sus capacidades para adaptarse a diferentes necesidades de desarrollo."
     }
   ]
 }
