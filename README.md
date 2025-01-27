@@ -1,59 +1,52 @@
-# Myapp
+# Portfolio Personal
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.3.
+Este es mi portafolio personal desarrollado en AngularJS.
 
-## Development server
+## Tecnologías Utilizadas
 
-To start a local development server, run:
+- **TypeScript**: 53.9%
+- **HTML**: 32.5%
+- **CSS**: 10.1%
+- **Nix**: 3.5%
 
-```bash
-ng serve
-```
+## Descripción
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Este proyecto es una representación de mi portafolio personal. Utiliza AngularJS como el framework principal para desarrollo de la aplicación. 
 
-## Code scaffolding
+## Instalación
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
-```bash
-ng generate component component-name
-```
+1. Clona este repositorio:
+    ```bash
+    git clone https://github.com/adrianssanz/portfolio.git
+    ```
+2. Navega al directorio del proyecto:
+    ```bash
+    cd portfolio
+    ```
+3. Instala las dependencias:
+    ```bash
+    npm install
+    ```
+4. Inicia el servidor de desarrollo:
+    ```bash
+    npm start
+    ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Uso
 
-```bash
-ng generate --help
-```
+Puedes acceder a la aplicación en `http://localhost:4200` después de iniciar el servidor de desarrollo.
 
-## Building
+## Contribuciones
 
-To build the project run:
+Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
-```bash
-ng build
-```
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (feature/nueva-funcionalidad).
+3. Realiza tus cambios y haz commits.
+4. Envía un pull request con una descripción detallada de tus cambios.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Contacto
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Si tienes alguna pregunta o sugerencia, por favor contacta a [tu-email@example.com](mailto:tu-email@example.com).
