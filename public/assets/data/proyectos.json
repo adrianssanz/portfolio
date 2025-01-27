@@ -1,41 +1,5 @@
 {
-  "proyectos": [
-    {
-      "titulo": "AlonsoPedia",
-      "duracion": "enero 2024 - febrero 2024",
-      "descripcion": "Aplicación web desarrollada con React.js para ofrecer una experiencia interactiva y visualmente atractiva a los aficionados de la Fórmula 1, proporcionando un recorrido detallado por las estadísticas clave de la carrera de Fernando Alonso.",
-      "repositorio": ["https://github.com/adrianssanz/Alonsopedia"],
-      "tecnologias": [
-        "JavaScript",
-        " ReactJS",
-        " HTML",
-        " MySQL"
-      ],
-      "demo": "",
-      "src": "./assets/proyectos/alonsopedia.jpg",
-      "alt": "AlonsoPedia"
-    },
-    {
-      "titulo": "Parking App",
-      "duracion": "abril 2024 - junio 2024",
-      "descripcion": "Aplicación de gestión de tickets de parking que optimiza el control de plazas de estacionamiento. Utiliza Java y Spring para el backend, Angular y Bootstrap para el frontend, y MySQL para la base de datos.",
-      "repositorio": ["https://github.com/adrianssanz/TrabajoFinal_ParkingApp"],
-      "tecnologias": [
-        "Java",
-        " Spring",
-        " JavaScript",
-        " AngularJS",
-        " TypeScript",
-        " Bootstrap",
-        " Firebase",
-        " MySQL",
-        " XAMPP"
-      ],
-      "demo": "",
-      "src": "./assets/proyectos/parkingapp.jpg",
-      "alt": "ParkingApp"
-    },
-    {
+  "proyectos": [{
       "titulo": "Aplicación de Notas - CRUD",
       "duracion": "diciembre 2024 - enero 2025",
       "descripcion": "Aplicación web para gestionar notas, con backend en Java Spring y frontend en AngularJS. Se centra en la creación de una API RESTful utilizando Spring Boot para la gestión de notas, implementando operaciones CRUD.",
@@ -62,19 +26,39 @@
       "alt": "MisNotas"
     },
     {
-      "titulo": "Juego de la Serpiente",
-      "duracion": "octubre 2024",
-      "descripcion": "Juego clásico de la serpiente utilizando HTML, CSS y JavaScript, desplegado en GitHub Pages. La jugabilidad se centra en controlar una serpiente que crece al comer una manzana.",
-      "repositorio": ["https://github.com/adrianssanz/serpiente"],
+      "titulo": "Parking App",
+      "duracion": "abril 2024 - junio 2024",
+      "descripcion": "Aplicación de gestión de tickets de parking que optimiza el control de plazas de estacionamiento. Utiliza Java y Spring para el backend, Angular y Bootstrap para el frontend, y MySQL para la base de datos.",
+      "repositorio": ["https://github.com/adrianssanz/TrabajoFinal_ParkingApp"],
       "tecnologias": [
-        "GitHub Pages",
-        " HTML",
-        " CSS",
-        " JavaScript"
+        "Java",
+        " Spring",
+        " JavaScript",
+        " AngularJS",
+        " TypeScript",
+        " Bootstrap",
+        " Firebase",
+        " MySQL",
+        " XAMPP"
       ],
-      "demo": "https://adrianssanz.github.io/serpiente/",
-      "src": "./assets/proyectos/serpiente.jpg",
-      "alt": "Serpiente"
+      "demo": "",
+      "src": "./assets/proyectos/parkingapp.jpg",
+      "alt": "ParkingApp"
+    }, 
+    {
+      "titulo": "AlonsoPedia",
+      "duracion": "enero 2024 - febrero 2024",
+      "descripcion": "Aplicación web desarrollada con React.js para ofrecer una experiencia interactiva y visualmente atractiva a los aficionados de la Fórmula 1, proporcionando un recorrido detallado por las estadísticas clave de la carrera de Fernando Alonso.",
+      "repositorio": ["https://github.com/adrianssanz/Alonsopedia"],
+      "tecnologias": [
+        "JavaScript",
+        " ReactJS",
+        " HTML",
+        " MySQL"
+      ],
+      "demo": "",
+      "src": "./assets/proyectos/alonsopedia.jpg",
+      "alt": "AlonsoPedia"
     },
     {
       "titulo": "Generador de Contraseñas",
@@ -93,6 +77,21 @@
       "demo": "https://adrianssanz.github.io/passwd-generator/",
       "src": "./assets/proyectos/contraseñas.png",
       "alt": "Contraseñas"
+    },
+    {
+      "titulo": "Juego de la Serpiente",
+      "duracion": "octubre 2024",
+      "descripcion": "Juego clásico de la serpiente utilizando HTML, CSS y JavaScript, desplegado en GitHub Pages. La jugabilidad se centra en controlar una serpiente que crece al comer una manzana.",
+      "repositorio": ["https://github.com/adrianssanz/serpiente"],
+      "tecnologias": [
+        "GitHub Pages",
+        " HTML",
+        " CSS",
+        " JavaScript"
+      ],
+      "demo": "https://adrianssanz.github.io/serpiente/",
+      "src": "./assets/proyectos/serpiente.jpg",
+      "alt": "Serpiente"
     },
     {
       "titulo": "Portfolio Personal",
