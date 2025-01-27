@@ -4,7 +4,7 @@
     <a routerLink="/" class="volver-inicio text-decoration-none mt-3">Volver al inicio</a>
   </div>
   <div class="container">
-    <div *ngIf="proyectos && proyectos.length > 0; else noProyectos" class="w-80 m-auto text-light ">
+    <div *ngIf="proyectos && proyectos.length > 0; else noProyectos">
       <div class="row">
         <div *ngFor="let proyecto of proyectos" class="col-lg-6 mb-5 text-light d-flex flex-column">
           <div class="p-4 ampliar flex-grow-1 d-flex flex-column">

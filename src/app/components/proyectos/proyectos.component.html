@@ -6,7 +6,7 @@
   </div>
   <div class="w-75 m-auto text-light">
     <!-- DOS PRIMEROS PROYECTOS -->
-    <div *ngIf="proyectos && proyectos.length > 0; else noProyectos" class="w-80 m-auto text-light ">
+    <div *ngIf="proyectos && proyectos.length > 0; else noProyectos">
       <div class="row mb-5 d-flex">
         <div *ngFor="let proyecto of proyectos.slice(0, 2)" class="col-lg-6 p-3 ampliar d-flex flex-column">
           <h3 class="h1">{{proyecto.titulo}}</h3>

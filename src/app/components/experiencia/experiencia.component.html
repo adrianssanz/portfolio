@@ -4,7 +4,7 @@
       <h2 class="display-3">Experiencia:</h2>
     </div>
   </div>
-  <div *ngIf="empresas && empresas.length > 0; else noEmpresas" class="w-80 m-auto text-light ">
+  <div *ngIf="empresas && empresas.length > 0; else noEmpresas" >
     <div *ngFor="let empresa of empresas" class="w-80 m-auto text-light">
       <div class="row mb-5">
         <div class="col-lg-3 d-flex justify-content-center align-items-center">
