@@ -6,10 +6,10 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class DataServiceService {
-  private tecnologiasUrl = './assets/tecnologias.json';
-  private empresasUrl = './assets/empresas.json';
-  private educacionUrl = './assets/educacion.json';
-  private proyectosUrl = './assets/proyectos.json';
+  private tecnologiasUrl = './assets/data/tecnologias.json';
+  private empresasUrl = './assets/data/empresas.json';
+  private educacionUrl = './assets/data/educacion.json';
+  private proyectosUrl = './assets/data/proyectos.json';
 
   constructor(private http: HttpClient) {}
 
