@@ -1,15 +1,22 @@
 <section>
-    <div class="row m-5 text-light">
-      <div class="offset-lg-2 col-lg-8">
-        <h2 class="display-3">Tecnologías:</h2>
-      </div>
+  <div class="row m-5 text-light">
+    <div class="offset-lg-2 col-lg-8">
+      <h2 class="display-3">Tecnologías:</h2>
     </div>
+  </div>
+  <div *ngIf="tecnologias && tecnologias.length > 0; else noTecnologias" class="w-80 m-auto text-light ">
     <div class="row w-75 m-auto text-light">
-      <div (click)="abrirModal(tecnologia.src, tecnologia.nombre, tecnologia.descripcion)" *ngFor="let tecnologia of tecnologias" class="col-6 col-md-3 col-lg-2 text-center mb-5 ampliar-logo">
+      <div (click)="abrirModal(tecnologia.src, tecnologia.nombre, tecnologia.descripcion)"
+        *ngFor="let tecnologia of tecnologias" class="col-6 col-md-3 col-lg-2 text-center mb-5 ampliar-logo">
         <img [src]="tecnologia.src" [alt]="tecnologia.alt" class="img-fluid " style="max-height: 100px;">
         <p>{{ tecnologia.nombre }}</p>
       </div>
     </div>
-    <hr class="w-75 mt-5 m-auto border-3 border-white">
-  </section>
-  
+  </div>
+  <ng-template #noTecnologias>
+    <div class="text-center text-light p-5 lead display-6">
+      <p>No hay datos de tecnologias disponibles.</p>
+    </div>
+  </ng-template>
+  <hr class="w-75 mt-5 m-auto border-3 border-white">
+</section>

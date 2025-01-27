@@ -4,22 +4,29 @@
       <h2 class="display-3">Experiencia:</h2>
     </div>
   </div>
-  <div *ngFor="let empresa of empresas" class="w-80 m-auto text-light">
-    <div class="row mb-5">
-      <div class="col-lg-3 d-flex justify-content-center align-items-center">
-        <a [href]="empresa.web" target="_blank" class="img-fluid w-50 ampliar-logo">
-          <img [src]="empresa.src" [alt]="empresa.alt" class="img-fluid ampliar-logo">
-      </a>
-      </div>
-      <div class="col-lg-9 ampliar">
-        <h3 class="h1">{{empresa.empresa}}</h3>
-        <h4 class="lead">{{empresa.puesto}}</h4>
-        <h4 class="lead text-secondary">{{empresa.ubicacion}}</h4>
-        <h4 class="lead text-secondary">{{empresa.duracion}}</h4>
-        <hr>
-        <p class="lead" [innerHTML]="empresa.descripcion | formatDescripcion"></p>
+  <div *ngIf="empresas && empresas.length > 0; else noEmpresas" class="w-80 m-auto text-light ">
+    <div *ngFor="let empresa of empresas" class="w-80 m-auto text-light">
+      <div class="row mb-5">
+        <div class="col-lg-3 d-flex justify-content-center align-items-center">
+          <a [href]="empresa.web" target="_blank" class="img-fluid w-50 ampliar-logo">
+            <img [src]="empresa.src" [alt]="empresa.alt" class="img-fluid ampliar-logo">
+          </a>
+        </div>
+        <div class="col-lg-9 ampliar">
+          <h3 class="h1">{{empresa.empresa}}</h3>
+          <h4 class="lead">{{empresa.puesto}}</h4>
+          <h4 class="lead text-secondary">{{empresa.ubicacion}}</h4>
+          <h4 class="lead text-secondary">{{empresa.duracion}}</h4>
+          <hr>
+          <p class="lead" [innerHTML]="empresa.descripcion | formatDescripcion"></p>
+        </div>
       </div>
     </div>
   </div>
+    <ng-template #noEmpresas>
+      <div class="text-center text-light p-5 lead display-6">
+        <p>No hay datos de experiencia disponibles.</p>
+      </div>
+    </ng-template>
   <hr class="w-75 mt-5 m-auto border-3 border-white">
 </section>
