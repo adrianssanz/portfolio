@@ -10,6 +10,8 @@
     <i class="fab fa-linkedin mb-3"></i>
   </a>
 </div>
-<app-volver-arriba></app-volver-arriba>
+<button [class.visible]="isVisible" (click)="scrollToTop()" class="volver-arriba">
+  Volver arriba
+</button>
 <div class="cursor-glow" [ngStyle]="{'left.px': x, 'top.px': y}"></div>
 <div class="cursor-glow2" [ngStyle]="{'left.px': x, 'top.px': y}"></div>
