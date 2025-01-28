@@ -22,7 +22,7 @@
         " Angular Material"
       ],
       "demo": "",
-      "src": "./assets/proyectos/misNotas.jpg",
+      "src": "./assets/proyectos/misNotas.png",
       "alt": "MisNotas"
     },
     {
@@ -42,7 +42,7 @@
         " XAMPP"
       ],
       "demo": "",
-      "src": "./assets/proyectos/parkingapp.jpg",
+      "src": "./assets/proyectos/parkingApp.png",
       "alt": "ParkingApp"
     }, 
     {
@@ -57,7 +57,7 @@
         " MySQL"
       ],
       "demo": "",
-      "src": "./assets/proyectos/alonsopedia.jpg",
+      "src": "./assets/proyectos/alonsopedia.png",
       "alt": "AlonsoPedia"
     },
     {
@@ -90,7 +90,7 @@
         " JavaScript"
       ],
       "demo": "https://adrianssanz.github.io/serpiente/",
-      "src": "./assets/proyectos/serpiente.jpg",
+      "src": "./assets/proyectos/serpiente.png",
       "alt": "Serpiente"
     },
     {
