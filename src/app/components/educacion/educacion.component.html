@@ -8,11 +8,11 @@
     <div *ngFor="let educacion of educaciones" class="w-80 m-auto text-light">
       <div class="row mb-5">
         <div class="col-lg-3 d-flex justify-content-center align-items-center">
-          <a [href]="educacion.web" target="_blank" class="text-center img-fluid w-50 ampliar-logo ">
+          <a [href]="educacion.web" target="_blank" class="text-center img-fluid w-50">
             <img [src]="educacion.src" [alt]="educacion.alt" class="img-fluid ampliar-logo">
           </a>
         </div>
-        <div class="col-lg-9 ampliar">
+        <div class="col-lg-9">
           <h3 class="h1">{{educacion.institucion}}</h3>
           <h4 class="lead">{{educacion.titulo}}</h4>
           <h4 class="lead text-secondary">{{educacion.ubicacion}}</h4>
