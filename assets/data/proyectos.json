@@ -22,6 +22,7 @@
         " Angular Material"
       ],
       "demo": "",
+      "video": "",
       "src": "./assets/proyectos/misNotas.png",
       "alt": "MisNotas"
     },
@@ -42,6 +43,7 @@
         " XAMPP"
       ],
       "demo": "",
+      "video":"https://www.youtube.com/watch?v=VR-zBJn479g",
       "src": "./assets/proyectos/parkingApp.png",
       "alt": "ParkingApp"
     }, 
@@ -57,6 +59,7 @@
         " MySQL"
       ],
       "demo": "",
+      "video": "",
       "src": "./assets/proyectos/alonsopedia.png",
       "alt": "AlonsoPedia"
     },
@@ -75,6 +78,7 @@
         " TypeScript"
       ],
       "demo": "https://adrianssanz.github.io/passwd-generator/",
+      "video": "",
       "src": "./assets/proyectos/contraseñas.png",
       "alt": "Contraseñas"
     },
@@ -90,6 +94,7 @@
         " JavaScript"
       ],
       "demo": "https://adrianssanz.github.io/serpiente/",
+      "video": "",
       "src": "./assets/proyectos/serpiente.png",
       "alt": "Serpiente"
     },
@@ -108,6 +113,7 @@
         " TypeScript"
       ],
       "demo": "https://adrianssanz.github.io/portfolio/",
+      "video": "",
       "src": "./assets/proyectos/portfolio.png",
       "alt": "Portfolio"
     }
