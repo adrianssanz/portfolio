@@ -25,8 +25,10 @@
               GitHub 2 <br></a>
             <i *ngIf="proyecto.demo" class="fas fa-gamepad"></i> <a *ngIf="proyecto.demo" [href]="proyecto.demo"
               class="text-decoration-none" target="_blank"> Aplicación Web</a>
+            <i *ngIf="proyecto.video" class="fa-brands fa-youtube"></i> <a *ngIf="proyecto.video" [href]="proyecto.video"
+              class="text-decoration-none" target="_blank"> Video Aplicación</a>
           </p>
-          <img [src]="proyecto.src" alt="{{proyecto.alt}}" class="img-fluid mt-3">
+          <img [src]="proyecto.src" alt="{{proyecto.alt}}" class="img-fluid mt-3 rounded-3">
         </div>
         <!-- VER EL RESTO DE PROYECTOS -->
         <div class="col-12 text-center mt-4">

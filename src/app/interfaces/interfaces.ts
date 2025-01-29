@@ -21,6 +21,7 @@ export interface Proyecto{
     duracion: string;
     descripcion: string;
     demo: string;
+    video: string;
     repositorio: string[];
     tecnologias: string[];
     src: string;
