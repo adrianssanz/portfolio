@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { FooterComponent } from '../../components/footer/footer.component';
 import { CommonModule } from '@angular/common';
 import { DataServiceService } from '../../services/data-service.service';
@@ -27,4 +27,17 @@ export class LayoutProyectosComponent implements OnInit {
       this.proyectos = respuesta.proyectos;
     });
   }
+
+  @ViewChild('dialogo') dialogo: any;
+  
+    src!: string;
+  
+    abrirDialogo(src: string) {
+      this.dialogo.nativeElement.showModal();
+      this.src = src;
+    }
+  
+    cerrarDialogo() {
+      this.dialogo.nativeElement.close();
+    }
 }

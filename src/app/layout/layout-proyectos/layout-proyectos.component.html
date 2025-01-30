@@ -30,7 +30,14 @@
               <i *ngIf="proyecto.video" class="fa-brands fa-youtube"></i> <a *ngIf="proyecto.video"
                 [href]="proyecto.video" class="text-decoration-none" target="_blank"> Video Aplicación</a>
             </p>
-            <img [src]="proyecto.src" alt="{{proyecto.alt}}" class="img-fluid mt-3 rounded-3">
+            <img [src]="proyecto.src" alt="{{proyecto.alt}}" class="img-fluid mt-3 rounded-3 ampliar-logo"
+              (click)="abrirDialogo(proyecto.src)">
+            <dialog #dialogo>
+              <div class="dialogo-contenido">
+                <img [src]="src" alt="Imagen ampliada">
+                <button class="close-btn" (click)="cerrarDialogo()">✖</button>
+              </div>
+            </dialog>
           </div>
         </div>
       </div>
