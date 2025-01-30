@@ -32,7 +32,7 @@
             </p>
             <img [src]="proyecto.src" alt="{{proyecto.alt}}" class="img-fluid mt-3 rounded-3 ampliar-logo"
               (click)="abrirDialogo(proyecto.src)">
-            <dialog #dialogo>
+            <dialog #dialogo (click)="cerrarDialogo()">
               <div class="dialogo-contenido">
                 <img [src]="src" alt="Imagen ampliada">
                 <button class="close-btn" (click)="cerrarDialogo()">✖</button>
