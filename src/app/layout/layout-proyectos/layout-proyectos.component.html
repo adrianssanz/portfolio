@@ -14,7 +14,7 @@
             <p class="lead">{{proyecto.descripcion}}</p>
             <div class="d-flex flex-wrap mt-auto">
               <span *ngFor="let tecnologia of proyecto.tecnologias"
-                class="badge bg-primary p-2 m-1 ampliar">{{tecnologia}}</span>
+                class="insignia p-2 m-1 ampliar">{{tecnologia}}</span>
             </div>
             <p class="lead mt-auto">
               <i class="fab fa-github"></i> <a [href]="proyecto.repositorio[0]" class="text-decoration-none"

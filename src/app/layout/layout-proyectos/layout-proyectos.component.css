@@ -1,0 +1,20 @@
+.insignia{
+    background-color: #121d2f;
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 1rem;
+    color: #3293f8;
+}
+
+.insignia:hover{
+    background-color: #1f6feb;
+    cursor:default;
+    color: white;
+}
