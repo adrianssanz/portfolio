@@ -20,7 +20,7 @@ export class EducacionComponent implements OnInit {
   }
 
   getEducacion(): void {
-    this.dataService.getEducacion().subscribe((respuesta) => {
+    this.dataService.getData('educacion.json').subscribe((respuesta) => {
       this.educaciones = respuesta.educacion;
     });
   }

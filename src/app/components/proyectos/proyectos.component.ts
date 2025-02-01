@@ -22,7 +22,7 @@ export class ProyectosComponent implements OnInit {
   }
 
   getProyectos(): void {
-    this.dataService.getProyectos().subscribe((respuesta) => {
+    this.dataService.getData('proyectos.json').subscribe((respuesta) => {
       this.proyectos = respuesta.proyectos;
     });
   }
