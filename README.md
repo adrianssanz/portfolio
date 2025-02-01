@@ -49,4 +49,4 @@ Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia, por favor contacta a [tu-email@example.com](mailto:tu-email@example.com).
+Si tienes alguna pregunta o sugerencia, por favor contacta a [sanzadrian@hotmail.es](mailto:sanzadrian@hotmail.es).
