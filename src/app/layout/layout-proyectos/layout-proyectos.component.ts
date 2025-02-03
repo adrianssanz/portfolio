@@ -23,7 +23,7 @@ export class LayoutProyectosComponent implements OnInit {
   }
 
   getProyectos(): void {
-    this.dataService.getData('proyectos.json').subscribe((respuesta) => {
+    this.dataService.getData().subscribe((respuesta) => {
       this.proyectos = respuesta.proyectos;
     });
   }
