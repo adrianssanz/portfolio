@@ -1,0 +1,259 @@
+{
+  "educacion": [{
+      "src": "assets/empresas/azarquiel.png",
+      "alt": "IES Azarquiel",
+      "web": "https://www.ies-azarquiel.es/",
+      "institucion": "IES Azarquiel",
+      "ubicacion": "Toledo, España",
+      "titulo": "CFGS Desarrollo de Aplicaciones Web",
+      "duracion": "septiembre de 2022 - junio de 2024",
+      "descripcion": "• Backend: APIs en Java usando Spring y JPA.\n\n• Frontend: Angular, React, JavaScript, TypeScript.\n\n• Diseño: HTML5, CSS3, Bootstrap, Angular Material.\n\n• Bases de datos: MySQL, Oracle, Firebase."
+    },
+    {
+      "src": "assets/empresas/azarquiel.png",
+      "alt": "IES Azarquiel",
+      "ubicacion": "Toledo, España",
+      "web": "https://www.ies-azarquiel.es/",
+      "institucion": "IES Azarquiel",
+      "titulo": "CFGS Administración de Sistemas Informáticos en Red",
+      "duracion": "septiembre de 2020 - junio de 2022",
+      "descripcion": "• Sistemas operativos: Windows y distribuciones de Linux.\n\n• Bases de datos: MySQL y Oracle.\n\n• Diseño de interfaces: HTML5 y CSS3.\n\n• Gestión de redes."
+    }
+  ],
+  "empresas": [{
+    "src": "assets/empresas/eviden.png",
+    "alt": "Eviden",
+    "web": "https://eviden.com/es-es/",
+    "empresa": "Eviden",
+    "ubicacion": "Toledo, España (Hibrido)",
+    "puesto": "Desarrollador Fullstack",
+    "duracion": "abril de 2024 - junio de 2024",
+    "descripcion": "• Participé en un bootcamp de tecnologías Java y Spring Framework en backend, y Angular.js en frontend, desarrollando una aplicación web de gestión de reservas para fisioterapia en oficinas de la empresa.\n\n• Implementé funcionalidades en Java, Spring MVC y Angular para mejorar el flujo de reservas y la accesibilidad, incrementando la adopción interna de la aplicación."
+  }, {
+    "src": "assets/empresas/ayce.png",
+    "alt": "Ayce Laborytax",
+    "web": "https://www.aycelaborytax.com/",
+    "empresa": "Ayce Laborytax",
+    "ubicacion": "Toledo, España (Presencial)",
+    "puesto": "Tecnico de Soporte",
+    "duracion": "abril de 2022 - junio de 2022",
+    "descripcion": "• Brindé soporte técnico a usuarios, gestionando y manteniendo equipos informáticos para asegurar el funcionamiento ininterrumpido de sistemas y redes en entornos de oficina.\n\n• Resolución de incidencias técnicas y mantenimiento de equipos, lo cual mejoró la eficiencia operativa del equipo de soporte."
+  }],
+  "proyectos": [{
+      "titulo": "Aplicación de Notas - CRUD",
+      "duracion": "diciembre 2024 - enero 2025",
+      "descripcion": "Aplicación web para gestionar notas, con backend en Java Spring y frontend en AngularJS. Se centra en la creación de una API RESTful utilizando Spring Boot para la gestión de notas, implementando operaciones CRUD.",
+      "repositorio": [
+        "https://github.com/adrianssanz/repositorioBackend",
+        "https://github.com/adrianssanz/repositorioFrontend"
+      ],
+      "tecnologias": [
+        "Java",
+        " Spring",
+        " JPARepository",
+        " H2 Database",
+        " Postman",
+        " AngularJS",
+        " JavaScript",
+        " TypeScript",
+        " HTML",
+        " CSS",
+        " Bootstrap",
+        " Angular Material"
+      ],
+      "demo": "",
+      "video": "",
+      "src": "./assets/proyectos/misNotas.png",
+      "alt": "MisNotas"
+    },
+    {
+      "titulo": "Parking App",
+      "duracion": "abril 2024 - junio 2024",
+      "descripcion": "Aplicación de gestión de tickets de parking que optimiza el control de plazas de estacionamiento. Utiliza Java y Spring para el backend, Angular y Bootstrap para el frontend, y MySQL para la base de datos.",
+      "repositorio": ["https://github.com/adrianssanz/TrabajoFinal_ParkingApp"],
+      "tecnologias": [
+        "Java",
+        " Spring",
+        " JavaScript",
+        " AngularJS",
+        " TypeScript",
+        " Bootstrap",
+        " Firebase",
+        " MySQL",
+        " XAMPP"
+      ],
+      "demo": "",
+      "video": "https://www.youtube.com/watch?v=VR-zBJn479g",
+      "src": "./assets/proyectos/parkingApp.png",
+      "alt": "ParkingApp"
+    },
+    {
+      "titulo": "AlonsoPedia",
+      "duracion": "enero 2024 - febrero 2024",
+      "descripcion": "Aplicación web desarrollada con React.js para ofrecer una experiencia interactiva y visualmente atractiva a los aficionados de la Fórmula 1, proporcionando un recorrido detallado por las estadísticas clave de la carrera de Fernando Alonso.",
+      "repositorio": ["https://github.com/adrianssanz/Alonsopedia"],
+      "tecnologias": [
+        "JavaScript",
+        " ReactJS",
+        " HTML",
+        " MySQL"
+      ],
+      "demo": "",
+      "video": "",
+      "src": "./assets/proyectos/alonsopedia.png",
+      "alt": "AlonsoPedia"
+    },
+    {
+      "titulo": "Generador de Contraseñas",
+      "duracion": "noviembre 2024",
+      "descripcion": "Aplicación generadora de contraseñas utilizando Angular. Permite crear contraseñas seguras y aleatorias, personalizando la longitud y opciones como caracteres especiales, mayúsculas, minúsculas y números.",
+      "repositorio": ["https://github.com/adrianssanz/passwd-generator"],
+      "tecnologias": [
+        "GitHub Pages",
+        " HTML",
+        " CSS",
+        " Bootstrap",
+        " JavaScript",
+        " AngularJS",
+        " TypeScript"
+      ],
+      "demo": "https://adrianssanz.github.io/passwd-generator/",
+      "video": "",
+      "src": "./assets/proyectos/contraseñas.png",
+      "alt": "Contraseñas"
+    },
+    {
+      "titulo": "Juego de la Serpiente",
+      "duracion": "octubre 2024",
+      "descripcion": "Juego clásico de la serpiente utilizando HTML, CSS y JavaScript, desplegado en GitHub Pages. La jugabilidad se centra en controlar una serpiente que crece al comer una manzana.",
+      "repositorio": ["https://github.com/adrianssanz/serpiente"],
+      "tecnologias": [
+        "GitHub Pages",
+        " HTML",
+        " CSS",
+        " JavaScript"
+      ],
+      "demo": "https://adrianssanz.github.io/serpiente/",
+      "video": "",
+      "src": "./assets/proyectos/serpiente.png",
+      "alt": "Serpiente"
+    },
+    {
+      "titulo": "Portfolio Personal",
+      "duracion": "enero 2025",
+      "descripcion": "Portfolio personal utilizando AngularJS para presentar habilidades y proyectos como desarrollador web. Ofrece una experiencia interactiva y dinámica, con diseño limpio y responsivo, desplegado en GitHub Pages.",
+      "repositorio": ["https://github.com/adrianssanz/portfolio"],
+      "tecnologias": [
+        "GitHub Pages",
+        " HTML",
+        " CSS",
+        " Bootstrap",
+        " JavaScript",
+        " AngularJS",
+        " TypeScript"
+      ],
+      "demo": "https://adrianssanz.github.io/portfolio/",
+      "video": "",
+      "src": "./assets/proyectos/portfolio.png",
+      "alt": "Portfolio"
+    }
+  ],
+  "tecnologias": [
+    {
+      "src": "assets/tecnologias/java.png",
+      "alt": "Java",
+      "nombre": "Java",
+      "descripcion": "Lenguaje de programación orientado a objetos. Es ampliamente utilizado para desarrollar aplicaciones empresariales, aplicaciones móviles y sistemas embebidos. Java es conocido por su portabilidad y robustez."
+    },
+    {
+      "src": "assets/tecnologias/spring.png",
+      "alt": "Spring",
+      "nombre": "Spring",
+      "descripcion": "Framework para el desarrollo de aplicaciones empresariales en Java. Spring proporciona una infraestructura integral para desarrollar aplicaciones robustas y escalables, incluyendo soporte para transacciones, seguridad y acceso a datos."
+    },
+    {
+      "src": "assets/tecnologias/typescript.png",
+      "alt": "Typescript",
+      "nombre": "Typescript",
+      "descripcion": "Superset de JavaScript que añade tipos estáticos. TypeScript mejora la productividad del desarrollo y la calidad del código al proporcionar características como la verificación de tipos en tiempo de compilación y la autocompletación."
+    },
+    {
+      "src": "assets/tecnologias/angular.png",
+      "alt": "Angular",
+      "nombre": "Angular",
+      "descripcion": "Framework para aplicaciones web desarrollado por Google. Angular permite la creación de aplicaciones de una sola página (SPA) con una arquitectura basada en componentes. Es conocido por su capacidad para crear aplicaciones dinámicas y de alto rendimiento."
+    },
+    {
+      "src": "assets/tecnologias/javascript.png",
+      "alt": "JavaScript",
+      "nombre": "JavaScript",
+      "descripcion": "Lenguaje de programación interpretado, utilizado principalmente en el desarrollo web. JavaScript permite la creación de contenido interactivo en las páginas web y es una parte fundamental de la pila de tecnologías web junto con HTML y CSS."
+    },
+    {
+      "src": "assets/tecnologias/react.png",
+      "alt": "React",
+      "nombre": "React",
+      "descripcion": "Biblioteca de JavaScript para construir interfaces de usuario. React permite la creación de componentes reutilizables y facilita el desarrollo de aplicaciones web dinámicas y de alto rendimiento mediante el uso de un modelo de programación declarativo."
+    },
+    {
+      "src": "assets/tecnologias/html.png",
+      "alt": "HTML",
+      "nombre": "HTML",
+      "descripcion": "Lenguaje de marcado para la creación de páginas web. HTML define la estructura y el contenido de una página web mediante el uso de etiquetas y atributos. Es la base sobre la cual se construyen todas las páginas web."
+    },
+    {
+      "src": "assets/tecnologias/css.png",
+      "alt": "CSS",
+      "nombre": "CSS",
+      "descripcion": "Lenguaje de estilos utilizado para describir la presentación de documentos HTML. CSS permite la separación del contenido y la presentación, facilitando el diseño y la personalización de las páginas web mediante el uso de estilos y layouts."
+    },
+    {
+      "src": "assets/tecnologias/bootstrap.png",
+      "alt": "Bootstrap",
+      "nombre": "Bootstrap",
+      "descripcion": "Framework de CSS para el desarrollo de interfaces web responsivas. Bootstrap proporciona una colección de herramientas y componentes predefinidos que facilitan el diseño de sitios web modernos y adaptativos, reduciendo el tiempo de desarrollo."
+    },
+    {
+      "src": "assets/tecnologias/mysql.png",
+      "alt": "MySql",
+      "nombre": "MySql",
+      "descripcion": "Sistema de gestión de bases de datos relacional de código abierto. MySQL es conocido por su rendimiento, fiabilidad y facilidad de uso. Es ampliamente utilizado en aplicaciones web y es compatible con una gran variedad de sistemas operativos."
+    },
+    {
+      "src": "assets/tecnologias/oracle.png",
+      "alt": "Oracle",
+      "nombre": "Oracle",
+      "descripcion": "Sistema de gestión de bases de datos relacional desarrollado por Oracle Corporation. Oracle Database es conocido por su escalabilidad, seguridad y soporte para grandes volúmenes de datos, siendo una opción popular para aplicaciones empresariales críticas."
+    },
+    {
+      "src": "assets/tecnologias/firebase.png",
+      "alt": "Firebase",
+      "nombre": "Firebase",
+      "descripcion": "Plataforma de desarrollo de aplicaciones web y móviles de Google. Firebase ofrece una variedad de servicios, incluyendo bases de datos en tiempo real, autenticación, almacenamiento y hosting, que facilitan el desarrollo y la gestión de aplicaciones."
+    },
+    {
+      "src": "assets/tecnologias/git.png",
+      "alt": "Git",
+      "nombre": "Git",
+      "descripcion": "Sistema de control de versiones distribuido. Git es ampliamente utilizado en el desarrollo de software para gestionar el código fuente y facilitar la colaboración entre desarrolladores. Proporciona un historial completo de cambios y permite la creación de ramas para el desarrollo paralelo."
+    },
+    {
+      "src": "assets/tecnologias/postman.png",
+      "alt": "Postman",
+      "nombre": "Postman",
+      "descripcion": "Herramienta para probar y documentar APIs. Postman permite a los desarrolladores enviar solicitudes HTTP a un servidor y recibir respuestas, facilitando la validación y el desarrollo de APIs. También proporciona características para la automatización de pruebas y la colaboración en equipo."
+    },
+    {
+      "src": "assets/tecnologias/vscode.png",
+      "alt": "Vscode",
+      "nombre": "Vscode",
+      "descripcion": "Editor de código fuente desarrollado por Microsoft. Visual Studio Code es conocido por su ligereza, velocidad y extensibilidad, lo que lo convierte en una opción popular entre los desarrolladores para la escritura de código en una variedad de lenguajes de programación."
+    },
+    {
+      "src": "assets/tecnologias/eclipse.png",
+      "alt": "Eclipse",
+      "nombre": "Eclipse IDE",
+      "descripcion": "Entorno de desarrollo integrado (IDE) utilizado principalmente para el desarrollo de aplicaciones en Java. Eclipse es conocido por su extensibilidad a través de plugins, lo que permite a los desarrolladores personalizar y ampliar sus capacidades para adaptarse a diferentes necesidades de desarrollo."
+    }
+  ]
+}
