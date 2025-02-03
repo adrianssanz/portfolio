@@ -6,11 +6,11 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class DataServiceService {
-  private dataUrl = './assets/data/';
+  private dataUrl = './assets/data/data.json';
 
   constructor(private http: HttpClient) {}
 
-  getData(file: string): Observable<any>{
-    return this.http.get(this.dataUrl + file);
+  getData(): Observable<any>{
+    return this.http.get(this.dataUrl);
   }
 }
