@@ -88,3 +88,11 @@ dialog::backdrop {
   cursor: pointer;
   border-radius: 5px;
 }
+
+.mr-3{
+  margin-right: 16px;
+}
+
+.ml-3{
+  margin-left: 16px;
+}
