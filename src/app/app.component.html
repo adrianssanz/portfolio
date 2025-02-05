@@ -11,7 +11,8 @@
   </a>
 </div>
 <button [class.visible]="isVisible" (click)="scrollToTop()" class="volver-arriba">
-  Volver arriba
+  <div class="d-none d-lg-block volver-arriba-texto">Volver arriba</div>
+  <div class="d-block d-lg-none"><i class="fa-solid fa-arrow-up"></i></div>
 </button>
 <div class="cursor-glow" [ngStyle]="{'left.px': x, 'top.px': y}"></div>
 <div class="cursor-glow2" [ngStyle]="{'left.px': x, 'top.px': y}"></div>
