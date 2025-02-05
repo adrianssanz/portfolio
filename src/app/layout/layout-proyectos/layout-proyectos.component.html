@@ -16,21 +16,31 @@
               <span *ngFor="let tecnologia of proyecto.tecnologias"
                 class="insignia p-2 m-1 ampliar">{{tecnologia}}</span>
             </div>
-            <p class="lead mt-auto">
-              <i class="fab fa-github"></i> <a [href]="proyecto.repositorio[0]" class="text-decoration-none"
-                target="_blank"> Repositorio de GitHub</a>
-              <br>
-              <i *ngIf="proyecto.repositorio.length > 1" class="fab fa-github"></i>
-              <a *ngIf="proyecto.repositorio.length > 1" [href]="proyecto.repositorio[1]" class="text-decoration-none"
-                target="_blank"> Repositorio de
-                GitHub 2 <br></a>
-
-              <i *ngIf="proyecto.demo" class="fas fa-gamepad"></i> <a *ngIf="proyecto.demo" [href]="proyecto.demo"
-                class="text-decoration-none" target="_blank"> Aplicación Web</a>
-              <i *ngIf="proyecto.video" class="fa-brands fa-youtube"></i> <a *ngIf="proyecto.video"
-                [href]="proyecto.video" class="text-decoration-none" target="_blank"> Video Aplicación</a>
-            </p>
-            <img [src]="proyecto.src" alt="{{proyecto.alt}}" class="img-fluid mt-3 rounded-3 ampliar-logo"
+            <div class="lead mt-3">
+              <div class="d-flex flex-wrap">
+                <div class="mr-3">
+                  <i class="fab fa-github"></i> <a [href]="proyecto.repositorio[0]" class="text-decoration-none"
+                    target="_blank"> Repositorio de GitHub</a>
+                </div>
+                <div>
+                  <i *ngIf="proyecto.repositorio.length > 1" class="fab fa-github"></i>
+                  <a *ngIf="proyecto.repositorio.length > 1" [href]="proyecto.repositorio[1]"
+                    class="text-decoration-none" target="_blank"> Repositorio de
+                    GitHub 2</a>
+                </div>
+              </div>
+              <div class="d-flex flex-wrap">
+                <div *ngIf="proyecto.demo" class="mr-3">
+                  <i class="fas fa-gamepad"></i> <a [href]="proyecto.demo"
+                    class="text-decoration-none" target="_blank"> Aplicación Web</a>
+                </div>
+                <div>
+                  <i *ngIf="proyecto.video" class="fa-brands fa-youtube"></i> <a *ngIf="proyecto.video"
+                    [href]="proyecto.video" class="text-decoration-none" target="_blank"> Video Aplicación</a>
+                </div>
+              </div>
+            </div>
+            <img [src]="proyecto.src" alt="{{proyecto.alt}}" class="img-fluid mt-4 rounded-3 ampliar-logo"
               (click)="abrirDialogo(proyecto.src)">
             <dialog #dialogo (click)="cerrarDialogo()">
               <div class="dialogo-contenido">
