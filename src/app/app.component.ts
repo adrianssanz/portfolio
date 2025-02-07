@@ -1,6 +1,7 @@
 import { Component, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { LanguageService } from './services/language.service';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,11 @@ import { RouterOutlet } from '@angular/router';
   imports: [CommonModule, RouterOutlet],
 })
 export class AppComponent {
+  constructor(private languageService: LanguageService) {};
+
   title = 'my-app';
+
+  //Efecto glow cursor
 
   x = 0;
   y = 0;
@@ -20,6 +25,8 @@ export class AppComponent {
     this.x = event.clientX;
     this.y = event.clientY;
   }
+
+  //Boton volver arriba
 
   isVisible = false;
 
@@ -31,5 +38,16 @@ export class AppComponent {
 
   scrollToTop(): void {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  //Boton cambiar idioma
+
+  englishActive():boolean{
+    return this.languageService.getLanguage();
+  }
+
+  changeLanguage(): void{
+    this.languageService.toggleLanguage();
+    window.location.reload();
   }
 }
