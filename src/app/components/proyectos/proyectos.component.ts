@@ -4,6 +4,7 @@ import { DataServiceService } from '../../services/data-service.service';
 import { Proyecto } from '../../interfaces/interfaces';
 import { RouterModule } from '@angular/router';
 import { ViewChild } from '@angular/core';
+import { LanguageService } from '../../services/language.service';
 
 
 @Component({
@@ -13,7 +14,7 @@ import { ViewChild } from '@angular/core';
   styleUrl: './proyectos.component.css'
 })
 export class ProyectosComponent implements OnInit {
-  constructor(private dataService: DataServiceService) {}
+  constructor(private dataService: DataServiceService, private languageService: LanguageService) {}
 
   proyectos!: Proyecto[];
 
@@ -38,5 +39,9 @@ export class ProyectosComponent implements OnInit {
 
   cerrarDialogo() {
     this.dialogo.nativeElement.close();
+  }
+
+  englishActive():boolean{
+    return this.languageService.getLanguage();
   }
 }

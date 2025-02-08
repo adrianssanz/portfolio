@@ -4,6 +4,7 @@ import { Tecnologia } from '../../interfaces/interfaces';
 import { DataServiceService } from '../../services/data-service.service';
 import { ModalComponent } from './modal/modal.component';
 import { MatDialog } from '@angular/material/dialog';
+import { LanguageService } from '../../services/language.service';
 
 @Component({
   selector: 'app-tecnologias',
@@ -14,7 +15,8 @@ import { MatDialog } from '@angular/material/dialog';
 export class TecnologiasComponent implements OnInit {
   constructor(
     private dataService: DataServiceService,
-    private matDialog: MatDialog
+    private matDialog: MatDialog,
+    private languageService: LanguageService
   ) {}
 
   tecnologias!: Tecnologia[];
@@ -23,12 +25,12 @@ export class TecnologiasComponent implements OnInit {
     this.getTecnologias();
   }
 
-  abrirModal(logoUrl: string, nombre:string, descripcion: string) {
+  abrirModal(logoUrl: string, nombre: string, descripcion: string) {
     const dialogRef = this.matDialog.open(ModalComponent, {
       data: {
         logoUrl: logoUrl,
         nombre: nombre,
-        descripcion: descripcion
+        descripcion: descripcion,
       },
     });
   }
@@ -37,5 +39,9 @@ export class TecnologiasComponent implements OnInit {
     this.dataService.getData().subscribe((tecnologias) => {
       this.tecnologias = tecnologias.tecnologias;
     });
+  }
+
+  englishActive(): boolean {
+    return this.languageService.getLanguage();
   }
 }

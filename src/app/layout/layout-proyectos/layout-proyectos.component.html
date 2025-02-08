@@ -1,7 +1,7 @@
 <div class="min-vh-100 d-flex flex-column">
   <div class="d-flex flex-column align-items-center justify-content-center text-light p-5">
-    <h2 class="display-3">Mis Proyectos:</h2>
-    <a routerLink="/" class="volver-inicio text-decoration-none mt-3">Volver al inicio</a>
+    <h2 class="display-3">{{ englishActive() ? 'My Projects' : 'Mis Proyectos'}}</h2>
+    <a routerLink="/" class="volver-inicio text-decoration-none mt-3">{{ englishActive() ? 'Back to home' : 'Volver al inicio'}}</a>
   </div>
   <div class="container">
     <div *ngIf="proyectos && proyectos.length > 0; else noProyectos">
@@ -20,23 +20,22 @@
               <div class="d-flex flex-wrap">
                 <div class="mr-3">
                   <i class="fab fa-github"></i> <a [href]="proyecto.repositorio[0]" class="text-decoration-none"
-                    target="_blank"> Repositorio de GitHub</a>
+                    target="_blank">{{ englishActive() ? ' GitHub Repository' : ' Repositorio de GitHub' }}</a>
                 </div>
                 <div>
                   <i *ngIf="proyecto.repositorio.length > 1" class="fab fa-github"></i>
                   <a *ngIf="proyecto.repositorio.length > 1" [href]="proyecto.repositorio[1]"
-                    class="text-decoration-none" target="_blank"> Repositorio de
-                    GitHub 2</a>
+                    class="text-decoration-none" target="_blank">{{ englishActive() ? ' GitHub Repository 2' : ' Repositorio de GitHub 2' }}</a>
                 </div>
               </div>
               <div class="d-flex flex-wrap">
                 <div *ngIf="proyecto.demo" class="mr-3">
                   <i class="fas fa-gamepad"></i> <a [href]="proyecto.demo"
-                    class="text-decoration-none" target="_blank"> Aplicación Web</a>
+                    class="text-decoration-none" target="_blank">{{ englishActive() ? ' Web App' : ' Aplicación Web' }}</a>
                 </div>
                 <div>
                   <i *ngIf="proyecto.video" class="fa-brands fa-youtube"></i> <a *ngIf="proyecto.video"
-                    [href]="proyecto.video" class="text-decoration-none" target="_blank"> Video Aplicación</a>
+                    [href]="proyecto.video" class="text-decoration-none" target="_blank"> {{ englishActive() ? ' App Video' : ' Video Aplicación' }}</a>
                 </div>
               </div>
             </div>

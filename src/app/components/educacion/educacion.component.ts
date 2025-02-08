@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { DataServiceService } from '../../services/data-service.service';
 import { Educacion } from '../../interfaces/interfaces';
 import { FormatDescripcionPipe } from '../../pipes/format-descripcion.pipe';
+import { LanguageService } from '../../services/language.service';
 
 @Component({
   selector: 'app-educacion',
@@ -11,7 +12,7 @@ import { FormatDescripcionPipe } from '../../pipes/format-descripcion.pipe';
   styleUrl: './educacion.component.css'
 })
 export class EducacionComponent implements OnInit {
-  constructor(private dataService: DataServiceService){}
+  constructor(private dataService: DataServiceService, private languageService: LanguageService){}
   
   educaciones!: Educacion[];
 
@@ -25,4 +26,7 @@ export class EducacionComponent implements OnInit {
     });
   }
 
+  englishActive():boolean{
+    return this.languageService.getLanguage();
+  }
 }

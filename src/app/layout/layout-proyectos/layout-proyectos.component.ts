@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { FooterComponent } from '../../components/footer/footer.component';
 import { CommonModule } from '@angular/common';
 import { DataServiceService } from '../../services/data-service.service';
+import { LanguageService } from '../../services/language.service';
 import { Proyecto } from '../../interfaces/interfaces';
 import { RouterModule } from '@angular/router';
 
@@ -13,7 +14,8 @@ import { RouterModule } from '@angular/router';
 })
 export class LayoutProyectosComponent implements OnInit {
   constructor(
-    private dataService: DataServiceService
+    private dataService: DataServiceService,
+    private languageService: LanguageService
   ) {}
 
   proyectos!: Proyecto[];
@@ -26,6 +28,10 @@ export class LayoutProyectosComponent implements OnInit {
     this.dataService.getData().subscribe((respuesta) => {
       this.proyectos = respuesta.proyectos;
     });
+  }
+
+  englishActive():boolean{
+    return this.languageService.getLanguage();
   }
 
   @ViewChild('dialogo') dialogo: any;

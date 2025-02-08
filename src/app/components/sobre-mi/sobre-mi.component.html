@@ -1,18 +1,28 @@
 <section>
   <div class="row m-5 text-light">
     <div class="offset-lg-2 col-lg-8">
-      <h2 class="display-3">Sobre mi:</h2><br>
+      <h2 class="display-3">{{englishActive() ? 'About me:' : 'Sobre mí:'}}</h2><br>
       <div>
-        <p class="lead">
-          Técnico Superior en <strong>Desarrollo de Aplicaciones Web</strong> recién graduado, con formación en
+        <p *ngIf="!englishActive()" class="lead">
+          Técnico Superior en <strong>Desarrollo de Aplicaciones Web</strong>, con formación en
           <strong>front-end</strong> y <strong>back-end</strong>. Enfocado en soluciones completas, combinando un
           enfoque práctico y eficiente con aprendizaje continuo para ofrecer resultados de alta calidad.
         </p>
+        <p *ngIf="englishActive()" class="lead">
+          Higher Technician in <strong>Web Application Development</strong>, with training in
+          <strong>front-end</strong> and <strong>back-end</strong>. Focused on end-to-end solutions, combining a
+          practical and efficient approach with continuous learning to deliver high-quality results.
+        </p>
         <br>
-        <p class="lead">
+        <p *ngIf="!englishActive()" class="lead">
           Apasionado por proyectos que demandan <span class="text-light-blue">soluciones innovadoras</span>, siempre
           mejorando mis habilidades técnicas y contribuyendo al éxito del equipo. Comprometido con el aprendizaje
           constante y la mejora continua para estar al día con las últimas tendencias tecnológicas.
+        </p>
+        <p *ngIf="englishActive()" class="lead">
+          Passionate about projects that require <span class="text-light-blue">innovative solutions</span>, always
+          improving my technical skills and contributing to the team's success. Committed to continuous learning and
+          improvement to stay up to date with the latest technological trends.
         </p>
         <div class=" github-calendar text-center mt-5">
           <a href="https://github.com/adrianssanz" target="_blank">

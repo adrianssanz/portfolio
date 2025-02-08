@@ -1,7 +1,7 @@
 <section>
   <div class="row m-5 text-light">
     <div class="offset-lg-2 col-lg-8">
-      <h2 class="display-3">Proyectos:</h2>
+      <h2 class="display-3">{{ englishActive() ? 'Projects:' : 'Proyectos:' }}</h2>
     </div>
   </div>
   <div class="w-75 m-auto text-light">
@@ -21,23 +21,22 @@
             <div class="d-flex flex-wrap">
               <div class="mr-3">
                 <i class="fab fa-github"></i> <a [href]="proyecto.repositorio[0]" class="text-decoration-none"
-                  target="_blank"> Repositorio de GitHub</a>
+                  target="_blank">{{ englishActive() ? ' GitHub Repository' : ' Repositorio de GitHub' }}</a>
               </div>
               <div>
                 <i *ngIf="proyecto.repositorio.length > 1" class="fab fa-github"></i>
                 <a *ngIf="proyecto.repositorio.length > 1" [href]="proyecto.repositorio[1]"
-                  class="text-decoration-none" target="_blank"> Repositorio de
-                  GitHub 2</a>
+                  class="text-decoration-none" target="_blank">{{ englishActive() ? ' GitHub Repository 2' : ' Repositorio de GitHub 2' }}</a>
               </div>
             </div>
             <div class="d-flex flex-wrap">
               <div *ngIf="proyecto.demo" class="mr-3">
                 <i class="fas fa-gamepad"></i> <a [href]="proyecto.demo"
-                  class="text-decoration-none" target="_blank"> Aplicación Web</a>
+                  class="text-decoration-none" target="_blank">{{ englishActive() ? ' Web App' : ' Aplicación Web' }}</a>
               </div>
               <div>
                 <i *ngIf="proyecto.video" class="fa-brands fa-youtube"></i> <a *ngIf="proyecto.video"
-                  [href]="proyecto.video" class="text-decoration-none" target="_blank"> Video Aplicación</a>
+                  [href]="proyecto.video" class="text-decoration-none" target="_blank"> {{ englishActive() ? ' App Video' : ' Video Aplicación' }}</a>
               </div>
             </div>
           </div>
@@ -52,7 +51,7 @@
         </div>
         <!-- VER EL RESTO DE PROYECTOS -->
         <div class="col-12 text-center mt-4">
-          <button routerLink="/proyectos" class="ver-mas">Ver todos los proyectos</button>
+          <button routerLink="/proyectos" class="ver-mas">{{ englishActive() ? 'See all projects' : 'Ver todos los proyectos' }}</button>
         </div>
       </div>
     </div>
