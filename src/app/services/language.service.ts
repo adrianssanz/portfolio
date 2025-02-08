@@ -14,7 +14,7 @@ export class LanguageService {
 
   getLanguage(): boolean{
     const lang = localStorage.getItem(this.LANG_KEY);
-    return lang ? JSON.parse(lang): true;
+    return lang ? JSON.parse(lang): false;
   }
 
   toggleLanguage(): void{
