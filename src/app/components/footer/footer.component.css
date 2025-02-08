@@ -3,5 +3,9 @@ i {
 }
 
 i:hover {
+    color: #2684e8;
+}
+
+p i:hover{
     color: #DD0031;
 }
