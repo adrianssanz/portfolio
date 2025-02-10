@@ -15,11 +15,11 @@
   <div class="d-block d-lg-none"><i class="fa-solid fa-arrow-up"></i></div>
 </button>
 <a (click)="changeLanguage()" *ngIf="englishActive()" class="idioma ampliar">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg" alt="Bandera de España" width="30" height="30" class="rounded-circle">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg" alt="Bandera de España" width="30" height="30" class="rounded-circle" style="object-fit: cover;">
 </a>
 <a (click)="changeLanguage()" *ngIf="!englishActive()" class="idioma ampliar">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/640px-Flag_of_the_United_Kingdom_%283-5%29.svg.png
-  " alt="Bandera del Reino Unido" width="30" height="30" class="rounded-circle">
+  " alt="Bandera del Reino Unido" width="30" height="30" class="rounded-circle" style="object-fit: cover;">
 </a>
 <div class="cursor-glow" [ngStyle]="{'left.px': x, 'top.px': y}"></div>
 <div class="cursor-glow2" [ngStyle]="{'left.px': x, 'top.px': y}"></div>
