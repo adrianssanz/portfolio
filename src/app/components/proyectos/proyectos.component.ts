@@ -35,10 +35,12 @@ export class ProyectosComponent implements OnInit {
   abrirDialogo(src: string) {
     this.dialogo.nativeElement.showModal();
     this.src = src;
+    document.body.style.overflow = 'hidden';
   }
 
   cerrarDialogo() {
     this.dialogo.nativeElement.close();
+    document.body.style.overflow = 'auto';
   }
 
   englishActive():boolean{
