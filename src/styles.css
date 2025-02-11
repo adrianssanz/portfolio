@@ -96,3 +96,14 @@ dialog::backdrop {
 .ml-3{
   margin-left: 16px;
 }
+
+.mat-mdc-dialog-container {
+  --mdc-dialog-container-color: #242a36;
+  color: white;
+  
+}
+
+.cdk-overlay-backdrop {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
