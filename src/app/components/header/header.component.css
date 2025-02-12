@@ -1,0 +1,16 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a i{
+    transition: color 0.3s ease;
+}
+
+a i:hover{
+    color: #2684e8;
+}
+
+a:hover{
+    text-decoration: underline;
+}

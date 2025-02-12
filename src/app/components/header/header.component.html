@@ -1,21 +1,27 @@
 <header>
   <div class="row m-5 text-light w-75 m-auto">
-    <div class="col-lg-6 d-flex justify-content-center align-items-center p-5">
+    <div class="col-lg-6 d-flex justify-content-center align-items-center py-5">
       <img src="./assets/perfil.jpg" alt="Adrián Sanz" class="w-50 rounded-circle">
     </div>
-    <div class="col-lg-6 d-flex justify-content-center text-center flex-column p-lg-5">
+    <div class="col-lg-6 d-flex justify-content-center text-center flex-column py-lg-5">
       <div>
         <h1 class="display-1">Adrián Sanz</h1>
         <h2 class="display-6">{{ englishActive() ? 'Full-Stack Developer' : 'Desarrollador Full-Stack' }}</h2>
-        <h3>{{ englishActive() ? 'Madrid and the surrounding area, Spain.' : 'Madrid y alrededores, España.' }}</h3>
+        <h3>{{ englishActive() ? 'Madrid, Spain.' : 'Madrid, España.' }}</h3>
       </div>
-      <div class="pt-2 d-none d-lg-block">
-        <p><i class="fas fa-envelope"></i> Email: <a href="mailto:sanzadrian@hotmail.es"
-        class="contact-link text-decoration-none">{{email}}</a></p>
-        <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/sanzadrian"
-        class="contact-link text-decoration-none" target="_blank">linkedin.com/in/sanzadrian</a></p>
-        <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/adrianssanz"
-        class="contact-link text-decoration-none" target="_blank">github.com/adrianssanz</a></p>
+      <div class="pt-2 d-none d-lg-block lead">
+        <p>
+          <i class="mr-2 fas fa-envelope"></i>Email:
+          <a href="mailto:sanzadrian@hotmail.es">{{email}}</a>
+        </p>
+        <p>
+          <i class="mr-2 fab fa-linkedin"></i>Linkedin:
+          <a href="https://www.linkedin.com/in/sanzadrian" target="_blank">linkedin.com/in/sanzadrian</a>
+        </p>
+        <p>
+          <i class="mr-2 fab fa-github"></i>GitHub:
+          <a href="https://github.com/adrianssanz" target="_blank">github.com/adrianssanz</a>
+        </p>
       </div>
       <div class="justify-content-center mt-4 gap-5 d-flex d-lg-none mb-2">
         <a class="h1 text-light ampliar" href="mailto:sanzadrian@hotmail.es" target="_blank">
