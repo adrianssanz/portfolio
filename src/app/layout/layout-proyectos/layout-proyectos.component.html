@@ -39,8 +39,8 @@
                 </div>
               </div>
             </div>
-            <img [src]="proyecto.src" alt="{{proyecto.alt}}" class="img-fluid mt-4 rounded-3 ampliar-logo"
-              (click)="abrirDialogo(proyecto.src)">
+            <img [src]="'https://res.cloudinary.com/dtdfno067/image/upload/v1739720401/portfolio/proyectos/' + proyecto.alt" alt="{{proyecto.alt}}" class="img-fluid mt-4 rounded-3 ampliar-logo"
+              (click)="abrirDialogo('https://res.cloudinary.com/dtdfno067/image/upload/v1739720401/portfolio/proyectos/' + proyecto.alt)">
             <dialog #dialogo (click)="cerrarDialogo()">
               <div class="dialogo-contenido">
                 <img [src]="src" alt="Imagen ampliada">
