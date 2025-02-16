@@ -25,12 +25,10 @@ export class TecnologiasComponent implements OnInit {
     this.getTecnologias();
   }
 
-  abrirModal(logoUrl: string, nombre: string, descripcion: string) {
+  abrirModal(tecnologia: Tecnologia) {
     const dialogRef = this.matDialog.open(ModalComponent, {
       data: {
-        logoUrl: logoUrl,
-        nombre: nombre,
-        descripcion: descripcion,
+        tecnologia: tecnologia
       },
     });
   }

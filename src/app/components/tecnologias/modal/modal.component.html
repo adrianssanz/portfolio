@@ -5,14 +5,14 @@
             aria-label="Close"></button>
     
     <div class="text-center mb-4">
-      <img [src]="data.logoUrl" 
-           alt="{{ data.nombre }} logo" 
+      <img [src]="'https://res.cloudinary.com/dtdfno067/image/upload/v1739718323/portfolio/tecnologias/' + data.tecnologia.alt" 
+           alt="{{ data.tecnologia.alt }} logo" 
            class="w-25 mx-auto d-block mb-3">
-      <h5 class="fw-bold text-light mb-3">{{ data.nombre }}</h5>
+      <h5 class="fw-bold text-light mb-3">{{ data.tecnologia.nombre }}</h5>
     </div>
 
     <p class="lh-sm">
-      {{data.descripcion}}
+      {{data.tecnologia.descripcion}}
     </p>
   </div>
 </div>
