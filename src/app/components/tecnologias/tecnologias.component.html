@@ -15,7 +15,7 @@
   </div>
   <ng-template #noTecnologias>
     <div class="text-center text-light p-5 lead display-6">
-      <p>No hay datos de tecnologias disponibles.</p>
+      <p>{{ englishActive() ? 'There is no technology data available.' : 'No hay datos de tecnologias disponibles.' }}</p>
     </div>
   </ng-template>
   <hr class="w-75 mt-5 m-auto border-3 border-white">

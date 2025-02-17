@@ -57,7 +57,7 @@
     </div>
     <ng-template #noProyectos>
       <div class="text-center text-light p-5 lead display-6">
-        <p>No hay datos de proyectos disponibles.</p>
+        <p>{{ englishActive() ? 'There is no project data available.' : 'No hay datos de proyectos disponibles.' }}</p>
       </div>
     </ng-template>
   </div>
