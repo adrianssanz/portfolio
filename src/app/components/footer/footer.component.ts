@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LanguageService } from '../../services/language.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-footer',
@@ -10,10 +11,17 @@ import { LanguageService } from '../../services/language.service';
 })
 export class FooterComponent {
 
-  constructor(private languageService: LanguageService){}
+  constructor(private languageService: LanguageService, private router: Router){}
 
   scrollToTop(): void {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    const currentRoute = this.router.url;
+    if(currentRoute === '/'){
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      this.router.navigate(['/']);
+    }
+    
   }
 
   englishActive():boolean{
