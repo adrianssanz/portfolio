@@ -5,6 +5,7 @@ import { Proyecto } from '../../interfaces/interfaces';
 import { RouterModule } from '@angular/router';
 import { ViewChild } from '@angular/core';
 import { LanguageService } from '../../services/language.service';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -14,7 +15,7 @@ import { LanguageService } from '../../services/language.service';
   styleUrl: './proyectos.component.css'
 })
 export class ProyectosComponent implements OnInit {
-  constructor(private dataService: DataServiceService, private languageService: LanguageService) {}
+  constructor(private dataService: DataServiceService, private languageService: LanguageService, private router: Router) {}
 
   proyectos!: Proyecto[];
 
@@ -45,5 +46,10 @@ export class ProyectosComponent implements OnInit {
 
   englishActive():boolean{
     return this.languageService.getLanguage();
+  }
+
+  scrollToTop(): void {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    this.router.navigate(['/projects']);
   }
 }
