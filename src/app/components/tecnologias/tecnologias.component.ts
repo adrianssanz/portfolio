@@ -5,10 +5,11 @@ import { DataServiceService } from '../../services/data-service.service';
 import { ModalComponent } from './modal/modal.component';
 import { MatDialog } from '@angular/material/dialog';
 import { LanguageService } from '../../services/language.service';
+import { FormatDescripcionPipe } from '../../pipes/format-descripcion.pipe';
 
 @Component({
   selector: 'app-tecnologias',
-  imports: [CommonModule],
+  imports: [CommonModule, FormatDescripcionPipe],
   templateUrl: './tecnologias.component.html',
   styleUrl: './tecnologias.component.css',
 })

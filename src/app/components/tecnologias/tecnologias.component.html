@@ -9,7 +9,7 @@
       <div (click)="abrirModal(tecnologia)"
         *ngFor="let tecnologia of tecnologias" class="col-6 col-md-3 col-lg-2 text-center mb-5 ampliar-logo">
         <img [src]="'https://res.cloudinary.com/dtdfno067/image/upload/v1739718323/portfolio/tecnologias/' + tecnologia.alt" [alt]="tecnologia.alt" class="img-fluid " style="max-height: 100px;">
-        <p>{{ tecnologia.nombre }}</p>
+        <p [innerHTML]="tecnologia.nombre | formatDescripcion"></p>
       </div>
     </div>
   </div>
