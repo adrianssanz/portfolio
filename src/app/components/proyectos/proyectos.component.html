@@ -1,4 +1,4 @@
-<section>
+<section id="proyectos">
   <div class="row m-5 text-light">
     <div class="offset-lg-2 col-lg-8">
       <h2 class="display-3">{{ englishActive() ? 'Projects:' : 'Proyectos:' }}</h2>
@@ -51,7 +51,7 @@
         </div>
         <!-- VER EL RESTO DE PROYECTOS -->
         <div class="col-12 text-center mt-4">
-          <button (click)="scrollToTop()" class="ver-mas">{{ englishActive() ? 'See all projects' : 'Ver todos los proyectos' }}</button>
+          <button (click)="goToProjects()" class="ver-mas">{{ englishActive() ? 'See all projects' : 'Ver todos los proyectos' }}</button>
         </div>
       </div>
     </div>

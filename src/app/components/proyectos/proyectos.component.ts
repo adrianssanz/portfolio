@@ -48,7 +48,7 @@ export class ProyectosComponent implements OnInit {
     return this.languageService.getLanguage();
   }
 
-  scrollToTop(): void {
+  goToProjects(): void {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     this.router.navigate(['/projects']);
   }

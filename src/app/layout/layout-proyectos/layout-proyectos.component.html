@@ -1,7 +1,7 @@
 <div class="min-vh-100 mt-5 d-flex flex-column">
   <div class="d-flex flex-column align-items-center justify-content-center text-light p-5">
     <h2 class="display-3">{{ englishActive() ? 'My Projects' : 'Mis Proyectos'}}</h2>
-    <a routerLink="/" class="volver-inicio text-decoration-none mt-3">{{ englishActive() ? 'Back to home' : 'Volver al inicio'}}</a>
+    <a (click)="goToHome()" class="volver-inicio text-decoration-none mt-3">{{ englishActive() ? 'Back to home' : 'Volver al inicio'}}</a>
   </div>
   <div class="container">
     <div *ngIf="proyectos && proyectos.length > 0; else noProyectos">

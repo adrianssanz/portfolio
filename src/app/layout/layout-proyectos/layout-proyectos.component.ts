@@ -4,7 +4,8 @@ import { CommonModule } from '@angular/common';
 import { DataServiceService } from '../../services/data-service.service';
 import { LanguageService } from '../../services/language.service';
 import { Proyecto } from '../../interfaces/interfaces';
-import { RouterModule } from '@angular/router';
+import { Route, RouterModule } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-layout-proyectos',
@@ -15,7 +16,8 @@ import { RouterModule } from '@angular/router';
 export class LayoutProyectosComponent implements OnInit {
   constructor(
     private dataService: DataServiceService,
-    private languageService: LanguageService
+    private languageService: LanguageService,
+    private router: Router
   ) {}
 
   proyectos!: Proyecto[];
@@ -28,6 +30,11 @@ export class LayoutProyectosComponent implements OnInit {
     this.dataService.getData().subscribe((respuesta) => {
       this.proyectos = respuesta.proyectos;
     });
+  }
+
+  goToHome(): void {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    this.router.navigate(['/']);
   }
 
   englishActive():boolean{
