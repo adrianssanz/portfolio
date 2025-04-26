@@ -19,12 +19,20 @@
     }
   ],
   "empresas": [{
+    "alt": "Globant",
+    "web": "https://www.globant.com/es",
+    "empresa": "Globant",
+    "ubicacion": "Madrid, España (Presencial)",
+    "puesto": "Desarrollador Java",
+    "duracion": "abril de 2025 - actualidad",
+    "descripcion": ""
+  },{
     "alt": "Eviden",
     "web": "https://eviden.com/es-es/",
     "empresa": "Eviden",
     "ubicacion": "Toledo, España (Hibrido)",
     "puesto": "Desarrollador Fullstack",
-    "duracion": "abril de 2024 - junio de 2024",
+    "duracion": "marzo de 2024 - julio de 2024",
     "descripcion": "• Participé en un bootcamp de tecnologías Java y Spring Framework en backend, y Angular.js en frontend, desarrollando una aplicación web de gestión de reservas para fisioterapia en oficinas de la empresa.\n\n• Implementé funcionalidades en Java, Spring MVC y Angular para mejorar el flujo de reservas y la accesibilidad, incrementando la adopción interna de la aplicación."
   }, {
     "alt": "Ayce",
@@ -32,7 +40,7 @@
     "empresa": "Ayce Laborytax",
     "ubicacion": "Toledo, España (Presencial)",
     "puesto": "Tecnico de Soporte",
-    "duracion": "abril de 2022 - junio de 2022",
+    "duracion": "marzo de 2022 - julio de 2022",
     "descripcion": "• Brindé soporte técnico a usuarios, gestionando y manteniendo equipos informáticos para asegurar el funcionamiento ininterrumpido de sistemas y redes en entornos de oficina.\n\n• Resolución de incidencias técnicas y mantenimiento de equipos, lo cual mejoró la eficiencia operativa del equipo de soporte."
   }],
   "proyectos": [{
@@ -229,6 +237,16 @@
       "alt": "Eclipse",
       "nombre": "Eclipse IDE",
       "descripcion": "Entorno de desarrollo integrado (IDE) utilizado principalmente para el desarrollo de aplicaciones en Java. Eclipse es conocido por su extensibilidad a través de plugins, lo que permite a los desarrolladores personalizar y ampliar sus capacidades para adaptarse a diferentes necesidades de desarrollo."
+    },
+    {
+      "alt": "Python",
+      "nombre": "Python\n(Aprendiendo)",
+      "descripcion": "Lenguaje de programación de alto nivel, interpretado y de propósito general. Python se destaca por su sintaxis clara y legible, lo que facilita el desarrollo de aplicaciones en diversos ámbitos, como web, ciencia de datos, inteligencia artificial y automatización."
+    },
+    {
+      "alt": "Docker",
+      "nombre": "Docker\n(Aprendiendo)",
+      "descripcion": "Plataforma de contenedores que permite empaquetar, distribuir y ejecutar aplicaciones de manera aislada del sistema. Docker facilita la portabilidad y escalabilidad al garantizar que las aplicaciones se ejecuten de la misma forma en cualquier entorno."
     }
   ]
 }

@@ -21,12 +21,21 @@
   ],
   "empresas": [
     {
+      "alt": "Globant",
+      "web": "https://www.globant.com/es",
+      "empresa": "Globant",
+      "ubicacion": "Madrid, Spain (On-site)",
+      "puesto": "Java Developer",
+      "duracion": "April 2025 - present",
+      "descripcion": ""
+    },
+    {
       "alt": "eviden",
       "web": "https://eviden.com/es-es/",
       "empresa": "Eviden",
       "ubicacion": "Toledo, Spain (Hybrid)",
       "puesto": "Fullstack Developer",
-      "duracion": "April 2024 - June 2024",
+      "duracion": "March 2024 - July 2024",
       "descripcion": "• Participated in a bootcamp on Java and Spring Framework technologies for backend, and Angular.js for frontend, developing a web application for managing physiotherapy reservations in company offices.\n\n• Implemented functionalities in Java, Spring MVC, and Angular to improve the reservation flow and accessibility, increasing internal adoption of the application."
     },
     {
@@ -35,7 +44,7 @@
       "empresa": "Ayce Laborytax",
       "ubicacion": "Toledo, Spain (On-site)",
       "puesto": "Support Technician",
-      "duracion": "April 2022 - June 2022",
+      "duracion": "March 2022 - July 2022",
       "descripcion": "• Provided technical support to users, managing and maintaining computer equipment to ensure uninterrupted operation of systems and networks in office environments.\n\n• Resolved technical issues and maintained equipment, improving the operational efficiency of the support team."
     }
   ],
@@ -234,6 +243,16 @@
       "alt": "eclipse",
       "nombre": "Eclipse IDE",
       "descripcion": "Integrated development environment (IDE) primarily used for developing applications in Java. Eclipse is known for its extensibility through plugins, allowing developers to customize and extend its capabilities to suit different development needs."
+    },
+    {
+      "alt": "python",
+      "nombre": "Python\n(Learning)",
+      "descripcion": "High-level, interpreted, and general-purpose programming language. Python stands out for its clear and readable syntax, making it easy to develop applications in various fields such as web development, data science, artificial intelligence, and automation."
+    },
+    {
+      "alt": "docker",
+      "nombre": "Docker\n(Learning)",
+      "descripcion": "Container platform that allows packaging, distributing, and running applications in isolation from the system. Docker enhances portability and scalability by ensuring applications run the same way in any environment."
     }
   ]
 }
