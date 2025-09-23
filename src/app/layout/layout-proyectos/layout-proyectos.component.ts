@@ -6,6 +6,7 @@ import { LanguageService } from '../../services/language.service';
 import { Proyecto } from '../../interfaces/interfaces';
 import { Route, RouterModule } from '@angular/router';
 import { Router } from '@angular/router';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-layout-proyectos',
@@ -17,13 +18,25 @@ export class LayoutProyectosComponent implements OnInit {
   constructor(
     private dataService: DataServiceService,
     private languageService: LanguageService,
-    private router: Router
+    private router: Router,
+    private title: Title
   ) {}
 
   proyectos!: Proyecto[];
 
   ngOnInit(): void {
     this.getProyectos();
+    
+    this.setPageTitle('Adrián Sanz | Projects', 'Adrián Sanz | Proyectos');
+  
+  }
+
+  private setPageTitle(titleEn: string, titleEs: string) {
+    if (this.englishActive()) {
+      this.title.setTitle(titleEn);
+    } else {
+      this.title.setTitle(titleEs);
+    }
   }
 
   getProyectos(): void {
@@ -35,6 +48,7 @@ export class LayoutProyectosComponent implements OnInit {
   goToHome(): void {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     this.router.navigate(['/']);
+    this.title.setTitle(`Adrián Sanz | Portfolio`);
   }
 
   englishActive():boolean{
