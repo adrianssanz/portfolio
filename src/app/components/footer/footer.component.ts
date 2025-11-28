@@ -31,4 +31,9 @@ export class FooterComponent {
   englishActive(): boolean {
     return this.languageService.getLanguage();
   }
+
+  getCurrentYear(): number {
+    return new Date().getFullYear();
+  }
+
 }
