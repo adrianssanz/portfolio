@@ -25,9 +25,9 @@
       "web": "https://www.globant.com/es",
       "empresa": "Globant",
       "ubicacion": "Madrid, Spain (On-site)",
-      "puesto": "Java Developer",
+      "puesto": "Java Developer - Iberia",
       "duracion": "April 2025 - present",
-      "descripcion": ""
+      "descripcion": "• Development and maintenance of Java microservices following best practices and SOLID principles.\n\n• Deployment of services in the cloud using AWS.\n\n• Version control management with Git and GitHub in collaborative environments."
     },
     {
       "alt": "eviden",
@@ -35,7 +35,7 @@
       "empresa": "Eviden",
       "ubicacion": "Toledo, Spain (Hybrid)",
       "puesto": "Fullstack Developer",
-      "duracion": "March 2024 - July 2024",
+      "duracion": "April 2024 - June 2024",
       "descripcion": "• Participated in a bootcamp on Java and Spring Framework technologies for backend, and Angular.js for frontend, developing a web application for managing physiotherapy reservations in company offices.\n\n• Implemented functionalities in Java, Spring MVC, and Angular to improve the reservation flow and accessibility, increasing internal adoption of the application."
     },
     {
@@ -44,7 +44,7 @@
       "empresa": "Ayce Laborytax",
       "ubicacion": "Toledo, Spain (On-site)",
       "puesto": "Support Technician",
-      "duracion": "March 2022 - July 2022",
+      "duracion": "April 2022 - June 2022",
       "descripcion": "• Provided technical support to users, managing and maintaining computer equipment to ensure uninterrupted operation of systems and networks in office environments.\n\n• Resolved technical issues and maintained equipment, improving the operational efficiency of the support team."
     }
   ],
